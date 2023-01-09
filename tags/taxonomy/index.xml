@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>taxonomy on Craig McCarthy</title>
+    <link>/tags/taxonomy/</link>
+    <description>Recent content in taxonomy on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/taxonomy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>November 2019 - overview</title>
+      <link>/posts/2019/12/november-2019-overview/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/november-2019-overview/</guid>
+      <description>November saw me finishing Make Your Own Neural Network (Rashid, 2016), making good progress with the freeCodeCamp - JavaScript Algorithms and Data Structures Certification, and attending my first coding meetup with London Python.
+Make Your Own Neural Network was a great read - it definitely demystified the goings on in neural networks.</description>
+    </item>
+    
+    <item>
+      <title>September 2019 - overview</title>
+      <link>/posts/2019/10/september-2019-overview/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/10/september-2019-overview/</guid>
+      <description>This month was a bit busier than the previous month.
+I have decided to take a break from DataCamp and have decided to hit up the books instead. I&amp;rsquo;ll return to DataCamp after I&amp;rsquo;ve finished reading -
+ Python for Data Analysis (McKinney, 2017) Data Science from Scratch (Grus, 2019)  I started to watch the 2019 CS50 lectures from Harvard University, CS50 being an introductory computer science course.</description>
+    </item>
+    
+  </channel>
+</rss>

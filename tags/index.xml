@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Craig McCarthy</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>books</title>
+      <link>/tags/books/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>/tags/c/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer science</title>
+      <link>/tags/computer-science/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DataCamp</title>
+      <link>/tags/datacamp/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/datacamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>freeCodeCamp</title>
+      <link>/tags/freecodecamp/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/freecodecamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>/tags/math/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchain</title>
+      <link>/tags/blockchain/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cryptocurrency</title>
+      <link>/tags/cryptocurrency/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cryptocurrency/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

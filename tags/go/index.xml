@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on Craig McCarthy</title>
+    <link>/tags/go/</link>
+    <description>Recent content in Go on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>December 2019 - overview</title>
+      <link>/posts/2019/12/december-2019-overview/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/december-2019-overview/</guid>
+      <description>It was a super busy month.
+Things that I did -
+ Learnt about web crawling, detailed in a separate post - here Built my website using Hugo and learnt a bit about the Go programming language, detailed in a separate post - here Started to brush up on my math in preparation for a machine learning course that I will be undertaking in the near future Continued to learn more about JavaScript via the The Modern JavaScript Tutorial Attended another London Python meetup   The topics of the London Python meetup were optimized human memory and MQTT.</description>
+    </item>
+    
+  </channel>
+</rss>

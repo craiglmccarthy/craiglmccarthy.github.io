@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scheme on Craig McCarthy</title>
+    <link>/tags/scheme/</link>
+    <description>Recent content in Scheme on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/scheme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Structure and Interpretation of Computer Programs</title>
+      <link>/posts/2020/04/structure-and-interpretation-of-computer-programs/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/04/structure-and-interpretation-of-computer-programs/</guid>
+      <description>I&amp;rsquo;ve made a start on Brian Harvey’s Structure and Interpretation of Computer Programs lectures - based on the book with the same name. I&amp;rsquo;m about 7 lectures in and I&amp;rsquo;m enjoying it so far. My only gripe is that the videos look like they were filmed in the 1980s - when they are actually from 2011.</description>
+    </item>
+    
+  </channel>
+</rss>

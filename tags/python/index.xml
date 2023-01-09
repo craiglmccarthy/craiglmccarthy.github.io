@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Craig McCarthy</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>April 2020 / May 2020 - overview</title>
+      <link>/posts/2020/05/april-2020-/-may-2020-overview/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/05/april-2020-/-may-2020-overview/</guid>
+      <description>Things that I’ve done over the past couple of months.
+  Wrote a tool that monitors changes to sitemaps. I needed something that would detect newly published webpages for archival capture. The Github repo is here.
+  I started a short course at City, University of London - Introduction to Data Analytics and Machine Learning with Python.</description>
+    </item>
+    
+    <item>
+      <title>February 2020 / March 2020 - overview</title>
+      <link>/posts/2020/03/february-2020-/-march-2020-overview/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/03/february-2020-/-march-2020-overview/</guid>
+      <description>It has been a steady couple of months, despite the world going into lockdown over COVID-19.
+I&amp;rsquo;ve mostly been occupied with web archiving and digital preservation stuff. I&amp;rsquo;ve been playing around with the Internet Archive&amp;rsquo;s brozzler crawler; using ExifTool to modify metadata; and I&amp;rsquo;ve been writing all sorts of scripts/tools to automate small tasks (I&amp;rsquo;m thinking of putting them together as a collection on GitHub).</description>
+    </item>
+    
+    <item>
+      <title>WARCing up the wrong tree - Part II</title>
+      <link>/posts/2020/02/warcing-up-the-wrong-tree-part-ii/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/warcing-up-the-wrong-tree-part-ii/</guid>
+      <description>A continuation of my WARCings.
+Writing WARCs with warcio The following code logs into a website and uses warcio to write logged-in pages to a WARC file. This would be especially useful for capturing basic webpages / media files. It will have to be improved in order to capture embedded resources - this is probably relatively straightforward though.</description>
+    </item>
+    
+    <item>
+      <title>January 2020 - overview</title>
+      <link>/posts/2020/02/january-2020-overview/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/january-2020-overview/</guid>
+      <description>It has been a quite varied month.
+  I attended two coding meetups:
+  New Year&amp;rsquo;s Hyperledger @ PwC More London
+  IBM Code London - Audio Classification with Convolutional Neural Networks @ Techspace Shoreditch
+    I built a blockchain using Python, more on that here</description>
+    </item>
+    
+    <item>
+      <title>WARCing up the wrong tree - Part I</title>
+      <link>/posts/2020/02/warcing-up-the-wrong-tree-part-i/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/warcing-up-the-wrong-tree-part-i/</guid>
+      <description>Web archiving can be hard. Luckily, these projects exist -
+ https://github.com/webrecorder/pywb (a complete web archive replay and recording solution) https://github.com/webrecorder/warcio (a library to write/read WARC files) https://github.com/chfoo/warcat (a library for handling WARC files) https://github.com/machawk1/warcreate (a Chrome extension for capturing webpages)  Code snippets A couple of code snippets that I&amp;rsquo;ve put together which I&amp;rsquo;ll probably refer back to.</description>
+    </item>
+    
+    <item>
+      <title>Python blockchain</title>
+      <link>/posts/2020/02/python-blockchain/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/python-blockchain/</guid>
+      <description>I decided to have another look into blockchain - this time by building one. I found this excellent medium article - https://medium.com/@vanflymen/learn-blockchains-by-building-one-117428612f46 which goes through the process of building one in Python. The blockchain that I built is available here - I&amp;rsquo;ve added some instructions about how to use it using HTTPie.</description>
+    </item>
+    
+    <item>
+      <title>December 2019 - overview</title>
+      <link>/posts/2019/12/december-2019-overview/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/december-2019-overview/</guid>
+      <description>It was a super busy month.
+Things that I did -
+ Learnt about web crawling, detailed in a separate post - here Built my website using Hugo and learnt a bit about the Go programming language, detailed in a separate post - here Started to brush up on my math in preparation for a machine learning course that I will be undertaking in the near future Continued to learn more about JavaScript via the The Modern JavaScript Tutorial Attended another London Python meetup   The topics of the London Python meetup were optimized human memory and MQTT.</description>
+    </item>
+    
+    <item>
+      <title>Web crawling</title>
+      <link>/posts/2019/12/web-crawling/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/web-crawling/</guid>
+      <description>December started with me looking into web crawling. I managed to set up the Heritrix web crawler, which as the Github README reads -
+ Heritrix is the Internet Archive&amp;rsquo;s open-source, extensible, web-scale, archival-quality web crawler project. Heritrix (sometimes spelled heretrix, or misspelled or missaid as heratrix/heritix/heretix/heratix) is an archaic word for heiress (woman who inherits).</description>
+    </item>
+    
+    <item>
+      <title>November 2019 - overview</title>
+      <link>/posts/2019/12/november-2019-overview/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/november-2019-overview/</guid>
+      <description>November saw me finishing Make Your Own Neural Network (Rashid, 2016), making good progress with the freeCodeCamp - JavaScript Algorithms and Data Structures Certification, and attending my first coding meetup with London Python.
+Make Your Own Neural Network was a great read - it definitely demystified the goings on in neural networks.</description>
+    </item>
+    
+    <item>
+      <title>October 2019 - overview</title>
+      <link>/posts/2019/11/october-2019-overview/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/11/october-2019-overview/</guid>
+      <description>My greatest achievement of October was that I finally managed to finish the freeCodeCamp Responsive Web Design Certification, the Github repository is available here. It took a lot longer than I had originally anticipated, though towards the end I think I had got my workflows figured out. Next stop - the JavaScript Algorithms and Data Structures Certification.</description>
+    </item>
+    
+  </channel>
+</rss>

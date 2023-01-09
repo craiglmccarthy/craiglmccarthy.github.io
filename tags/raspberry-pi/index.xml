@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Craig McCarthy</title>
+    <link>/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ethereum 2.0 - Medalla Testnet</title>
+      <link>/posts/2020/09/ethereum-2.0-medalla-testnet/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/09/ethereum-2.0-medalla-testnet/</guid>
+      <description>Ethereum 2.0 node running on my Raspberry Pi - I&amp;#39;ve still yet to read the book, but I thought these together would make a good photo op  After taking part in the Topaz testnet, I obviously had to take part in Ethereum 2.0&amp;rsquo;s &amp;ldquo;official&amp;rdquo; multi-client testnet 😊 - hopefully the final testnet before mainnet launches.</description>
+    </item>
+    
+    <item>
+      <title>November 2019 - overview</title>
+      <link>/posts/2019/12/november-2019-overview/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/november-2019-overview/</guid>
+      <description>November saw me finishing Make Your Own Neural Network (Rashid, 2016), making good progress with the freeCodeCamp - JavaScript Algorithms and Data Structures Certification, and attending my first coding meetup with London Python.
+Make Your Own Neural Network was a great read - it definitely demystified the goings on in neural networks.</description>
+    </item>
+    
+    <item>
+      <title>October 2019 - overview</title>
+      <link>/posts/2019/11/october-2019-overview/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/11/october-2019-overview/</guid>
+      <description>My greatest achievement of October was that I finally managed to finish the freeCodeCamp Responsive Web Design Certification, the Github repository is available here. It took a lot longer than I had originally anticipated, though towards the end I think I had got my workflows figured out. Next stop - the JavaScript Algorithms and Data Structures Certification.</description>
+    </item>
+    
+  </channel>
+</rss>

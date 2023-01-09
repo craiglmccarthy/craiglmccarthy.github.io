@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neural networks on Craig McCarthy</title>
+    <link>/tags/neural-networks/</link>
+    <description>Recent content in neural networks on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>January 2020 - overview</title>
+      <link>/posts/2020/02/january-2020-overview/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/january-2020-overview/</guid>
+      <description>It has been a quite varied month.
+  I attended two coding meetups:
+  New Year&amp;rsquo;s Hyperledger @ PwC More London
+  IBM Code London - Audio Classification with Convolutional Neural Networks @ Techspace Shoreditch
+    I built a blockchain using Python, more on that here</description>
+    </item>
+    
+    <item>
+      <title>November 2019 - overview</title>
+      <link>/posts/2019/12/november-2019-overview/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/november-2019-overview/</guid>
+      <description>November saw me finishing Make Your Own Neural Network (Rashid, 2016), making good progress with the freeCodeCamp - JavaScript Algorithms and Data Structures Certification, and attending my first coding meetup with London Python.
+Make Your Own Neural Network was a great read - it definitely demystified the goings on in neural networks.</description>
+    </item>
+    
+  </channel>
+</rss>

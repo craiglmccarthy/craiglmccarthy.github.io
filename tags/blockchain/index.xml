@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blockchain on Craig McCarthy</title>
+    <link>/tags/blockchain/</link>
+    <description>Recent content in blockchain on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ethereum 2.0 - Medalla Testnet</title>
+      <link>/posts/2020/09/ethereum-2.0-medalla-testnet/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/09/ethereum-2.0-medalla-testnet/</guid>
+      <description>Ethereum 2.0 node running on my Raspberry Pi - I&amp;#39;ve still yet to read the book, but I thought these together would make a good photo op  After taking part in the Topaz testnet, I obviously had to take part in Ethereum 2.0&amp;rsquo;s &amp;ldquo;official&amp;rdquo; multi-client testnet 😊 - hopefully the final testnet before mainnet launches.</description>
+    </item>
+    
+    <item>
+      <title>September 2020 - update</title>
+      <link>/posts/2020/09/september-2020-update/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/09/september-2020-update/</guid>
+      <description>It&amp;rsquo;s been quite a long time since my last update. Things that I&amp;rsquo;ve done since May -
+ I completed a short course at City, University of London - Introduction to Data Analytics and Machine Learning with Python Attended an online webinar hosted by IBM on quantum computing - Throwing the dice with a Quantum Computer Set up another Ethereum 2.</description>
+    </item>
+    
+    <item>
+      <title>April 2020 / May 2020 - overview</title>
+      <link>/posts/2020/05/april-2020-/-may-2020-overview/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/05/april-2020-/-may-2020-overview/</guid>
+      <description>Things that I’ve done over the past couple of months.
+  Wrote a tool that monitors changes to sitemaps. I needed something that would detect newly published webpages for archival capture. The Github repo is here.
+  I started a short course at City, University of London - Introduction to Data Analytics and Machine Learning with Python.</description>
+    </item>
+    
+    <item>
+      <title>Ethereum 2.0 validator - Topaz Testnet</title>
+      <link>/posts/2020/05/ethereum-2.0-validator-topaz-testnet/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/05/ethereum-2.0-validator-topaz-testnet/</guid>
+      <description>Over the past year or so I&amp;rsquo;ve become increasingly interested in blockchains/cryptocurrencies, especially Ethereum - a blockchain famed for its executable smart contracts.
+The project is to undergo a major upgrade over the coming years, resulting in Ethereum 2.0
+The upgrade aims to address scalability issues of Ethereum 1.0 via &amp;lsquo;sharding&amp;rsquo; - which essentially means breaking up the blockchain into multiple blockchains.</description>
+    </item>
+    
+    <item>
+      <title>January 2020 - overview</title>
+      <link>/posts/2020/02/january-2020-overview/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/january-2020-overview/</guid>
+      <description>It has been a quite varied month.
+  I attended two coding meetups:
+  New Year&amp;rsquo;s Hyperledger @ PwC More London
+  IBM Code London - Audio Classification with Convolutional Neural Networks @ Techspace Shoreditch
+    I built a blockchain using Python, more on that here</description>
+    </item>
+    
+    <item>
+      <title>Python blockchain</title>
+      <link>/posts/2020/02/python-blockchain/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/python-blockchain/</guid>
+      <description>I decided to have another look into blockchain - this time by building one. I found this excellent medium article - https://medium.com/@vanflymen/learn-blockchains-by-building-one-117428612f46 which goes through the process of building one in Python. The blockchain that I built is available here - I&amp;rsquo;ve added some instructions about how to use it using HTTPie.</description>
+    </item>
+    
+    <item>
+      <title>September 2019 - overview</title>
+      <link>/posts/2019/10/september-2019-overview/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/10/september-2019-overview/</guid>
+      <description>This month was a bit busier than the previous month.
+I have decided to take a break from DataCamp and have decided to hit up the books instead. I&amp;rsquo;ll return to DataCamp after I&amp;rsquo;ve finished reading -
+ Python for Data Analysis (McKinney, 2017) Data Science from Scratch (Grus, 2019)  I started to watch the 2019 CS50 lectures from Harvard University, CS50 being an introductory computer science course.</description>
+    </item>
+    
+    <item>
+      <title>June 2019 - overview</title>
+      <link>/posts/2019/07/june-2019-overview/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/07/june-2019-overview/</guid>
+      <description>This month I got to grips with the use of virtual environments and the integration of Git in Visual Studio Code. I also set up the Windows Subsystem for Linux so that I can use Bash.
+I put some more work into the GUI data entry automation project - it is now complete and I have built it into a windows executable via pyinstaller.</description>
+    </item>
+    
+  </channel>
+</rss>

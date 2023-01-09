@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Craig McCarthy</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in Linux on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ethereum 2.0 - Medalla Testnet</title>
+      <link>/posts/2020/09/ethereum-2.0-medalla-testnet/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/09/ethereum-2.0-medalla-testnet/</guid>
+      <description>Ethereum 2.0 node running on my Raspberry Pi - I&amp;#39;ve still yet to read the book, but I thought these together would make a good photo op  After taking part in the Topaz testnet, I obviously had to take part in Ethereum 2.0&amp;rsquo;s &amp;ldquo;official&amp;rdquo; multi-client testnet 😊 - hopefully the final testnet before mainnet launches.</description>
+    </item>
+    
+    <item>
+      <title>A New Year, a new OS!</title>
+      <link>/posts/2020/01/a-new-year-a-new-os/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/01/a-new-year-a-new-os/</guid>
+      <description>A New Year, a new operating system! After trying and failing numerous times to get Linux running satisfactorily via Oracle VirtualBox - I finally bit the bullet and went for a dual booting solution.
+After a week or so of using Linux, Ubuntu (18.04 LTS &amp;ldquo;Bionic Beaver&amp;rdquo;), I have to say that I&amp;rsquo;m loving it.</description>
+    </item>
+    
+    <item>
+      <title>May 2019 - overview</title>
+      <link>/posts/2019/06/may-2019-overview/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/06/may-2019-overview/</guid>
+      <description>This month mostly consisted of working through Automate the Boring Stuff (Sweigart, 2015); Think Python (Downey, 2015); and the end of Python Crash Course (Matthes, 2015).
+I thoroughly enjoyed all three books, completing most of the exercises in Automate the Boring Stuff and Python Crash Course - the exception being the final project of Python Crash Course, the Django app.</description>
+    </item>
+    
+  </channel>
+</rss>

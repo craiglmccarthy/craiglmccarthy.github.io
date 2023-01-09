@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data visualisation on Craig McCarthy</title>
+    <link>/tags/data-visualisation/</link>
+    <description>Recent content in data visualisation on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data-visualisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web crawling</title>
+      <link>/posts/2019/12/web-crawling/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/web-crawling/</guid>
+      <description>December started with me looking into web crawling. I managed to set up the Heritrix web crawler, which as the Github README reads -
+ Heritrix is the Internet Archive&amp;rsquo;s open-source, extensible, web-scale, archival-quality web crawler project. Heritrix (sometimes spelled heretrix, or misspelled or missaid as heratrix/heritix/heretix/heratix) is an archaic word for heiress (woman who inherits).</description>
+    </item>
+    
+    <item>
+      <title>September 2019 - overview</title>
+      <link>/posts/2019/10/september-2019-overview/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/10/september-2019-overview/</guid>
+      <description>This month was a bit busier than the previous month.
+I have decided to take a break from DataCamp and have decided to hit up the books instead. I&amp;rsquo;ll return to DataCamp after I&amp;rsquo;ve finished reading -
+ Python for Data Analysis (McKinney, 2017) Data Science from Scratch (Grus, 2019)  I started to watch the 2019 CS50 lectures from Harvard University, CS50 being an introductory computer science course.</description>
+    </item>
+    
+    <item>
+      <title>August 2019 - overview</title>
+      <link>/posts/2019/09/august-2019-overview/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/09/august-2019-overview/</guid>
+      <description>It was a fairly quiet month on the coding front. The first half of the month was largely taken up by a visit to Poland - to the cities of Krakow and Warsaw. I had a great time and I definitely had my fair share of pierogi.
+Here&amp;rsquo;s the progress that I made in August -</description>
+    </item>
+    
+  </channel>
+</rss>

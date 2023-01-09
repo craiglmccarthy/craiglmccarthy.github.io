@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meetups on Craig McCarthy</title>
+    <link>/tags/meetups/</link>
+    <description>Recent content in meetups on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/meetups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>April 2020 / May 2020 - overview</title>
+      <link>/posts/2020/05/april-2020-/-may-2020-overview/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/05/april-2020-/-may-2020-overview/</guid>
+      <description>Things that I’ve done over the past couple of months.
+  Wrote a tool that monitors changes to sitemaps. I needed something that would detect newly published webpages for archival capture. The Github repo is here.
+  I started a short course at City, University of London - Introduction to Data Analytics and Machine Learning with Python.</description>
+    </item>
+    
+    <item>
+      <title>January 2020 - overview</title>
+      <link>/posts/2020/02/january-2020-overview/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/january-2020-overview/</guid>
+      <description>It has been a quite varied month.
+  I attended two coding meetups:
+  New Year&amp;rsquo;s Hyperledger @ PwC More London
+  IBM Code London - Audio Classification with Convolutional Neural Networks @ Techspace Shoreditch
+    I built a blockchain using Python, more on that here</description>
+    </item>
+    
+    <item>
+      <title>December 2019 - overview</title>
+      <link>/posts/2019/12/december-2019-overview/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/december-2019-overview/</guid>
+      <description>It was a super busy month.
+Things that I did -
+ Learnt about web crawling, detailed in a separate post - here Built my website using Hugo and learnt a bit about the Go programming language, detailed in a separate post - here Started to brush up on my math in preparation for a machine learning course that I will be undertaking in the near future Continued to learn more about JavaScript via the The Modern JavaScript Tutorial Attended another London Python meetup   The topics of the London Python meetup were optimized human memory and MQTT.</description>
+    </item>
+    
+    <item>
+      <title>November 2019 - overview</title>
+      <link>/posts/2019/12/november-2019-overview/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/november-2019-overview/</guid>
+      <description>November saw me finishing Make Your Own Neural Network (Rashid, 2016), making good progress with the freeCodeCamp - JavaScript Algorithms and Data Structures Certification, and attending my first coding meetup with London Python.
+Make Your Own Neural Network was a great read - it definitely demystified the goings on in neural networks.</description>
+    </item>
+    
+  </channel>
+</rss>

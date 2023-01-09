@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>command line on Craig McCarthy</title>
+    <link>/tags/command-line/</link>
+    <description>Recent content in command line on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>February 2020 / March 2020 - overview</title>
+      <link>/posts/2020/03/february-2020-/-march-2020-overview/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/03/february-2020-/-march-2020-overview/</guid>
+      <description>It has been a steady couple of months, despite the world going into lockdown over COVID-19.
+I&amp;rsquo;ve mostly been occupied with web archiving and digital preservation stuff. I&amp;rsquo;ve been playing around with the Internet Archive&amp;rsquo;s brozzler crawler; using ExifTool to modify metadata; and I&amp;rsquo;ve been writing all sorts of scripts/tools to automate small tasks (I&amp;rsquo;m thinking of putting them together as a collection on GitHub).</description>
+    </item>
+    
+    <item>
+      <title>A New Year, a new OS!</title>
+      <link>/posts/2020/01/a-new-year-a-new-os/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/01/a-new-year-a-new-os/</guid>
+      <description>A New Year, a new operating system! After trying and failing numerous times to get Linux running satisfactorily via Oracle VirtualBox - I finally bit the bullet and went for a dual booting solution.
+After a week or so of using Linux, Ubuntu (18.04 LTS &amp;ldquo;Bionic Beaver&amp;rdquo;), I have to say that I&amp;rsquo;m loving it.</description>
+    </item>
+    
+  </channel>
+</rss>

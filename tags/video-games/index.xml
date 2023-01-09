@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>video games on Craig McCarthy</title>
+    <link>/tags/video-games/</link>
+    <description>Recent content in video games on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/video-games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Theory and Craft of Digital Preservation</title>
+      <link>/posts/2020/04/the-theory-and-craft-of-digital-preservation/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/04/the-theory-and-craft-of-digital-preservation/</guid>
+      <description>I&amp;rsquo;m currently reading a book called The Theory and Craft of Digital Preservation (Owens, T. 2018). While it doesn&amp;rsquo;t sound that exciting - I&amp;rsquo;m really enjoying it. I like how the author highlights some important things to consider using some really interesting examples.
+  Alexei Shulgin&amp;rsquo;s Form Art - aesthetic considerations, how web browsers display HTML changes over time, how important is the browser rendering?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Craig McCarthy">
+<meta name="description" content="A continuation of my WARCings.
+Writing WARCs with warcio The following code logs into a website and uses warcio to write logged-in pages to a WARC file. This would be especially useful for capturing basic webpages / media files. It will have to be improved in order to capture embedded resources - this is probably relatively straightforward though." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="/posts/2020/02/warcing-up-the-wrong-tree-part-ii/" />
+
+
+    <title>
+        
+            WARCing up the wrong tree - Part II | Craig McCarthy 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.12d81ddce7b91e7ad4f910db725e51d9f3dbb8e8d94fe77fd38fd5f72cc4cb00.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="WARCing up the wrong tree - Part II">
+<meta itemprop="description" content="A continuation of my WARCings.
+Writing WARCs with warcio The following code logs into a website and uses warcio to write logged-in pages to a WARC file. This would be especially useful for capturing basic webpages / media files. It will have to be improved in order to capture embedded resources - this is probably relatively straightforward though.">
+<meta itemprop="datePublished" content="2020-02-03T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-02-03T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="289">
+<meta itemprop="image" content="/"/>
+
+
+
+<meta itemprop="keywords" content="web archiving,digital archives,Python," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="WARCing up the wrong tree - Part II"/>
+<meta name="twitter:description" content="A continuation of my WARCings.
+Writing WARCs with warcio The following code logs into a website and uses warcio to write logged-in pages to a WARC file. This would be especially useful for capturing basic webpages / media files. It will have to be improved in order to capture embedded resources - this is probably relatively straightforward though."/>
+
+
+
+
+
+    <meta property="article:published_time" content="2020-02-03 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <nav class="home"><a href="/">HOME</a></nav>
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/posts/">BLOG</a></li><li><a href="/tags/">#TAGS</a></li><li><a href="/about/">ABOUT</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                        </svg>
+                    </a>
+                </span>
+            
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title post-terms-title">
+                <a href="/posts/2020/02/warcing-up-the-wrong-tree-part-ii/">WARCing up the wrong tree - Part II</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <p>A continuation of my WARCings.</p>
+<h4 id="writing-warcs-with-warcio">Writing WARCs with warcio</h4>
+<p>The following code logs into a website and uses warcio to write logged-in pages to a WARC file. This would be especially useful for capturing basic webpages / media files. It will have to be improved in order to capture embedded resources - this is <em>probably</em> relatively straightforward though.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
+<span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+
+<span style="color:#e6db74">&#34;&#34;&#34;Authenticated WARC capture. Given a .txt file of URLS, this will login to a website 
+</span><span style="color:#e6db74">and write the logged in pages into a WARC file.&#34;&#34;&#34;</span>
+
+<span style="color:#f92672">import</span> time
+
+<span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
+<span style="color:#f92672">from</span> warcio <span style="color:#f92672">import</span> WARCWriter
+<span style="color:#f92672">from</span> warcio.capture_http <span style="color:#f92672">import</span> capture_http
+<span style="color:#f92672">import</span> requests  <span style="color:#75715e"># requests must be imported after capture_http</span>
+
+<span style="color:#75715e"># Login credentials</span>
+USERNAME <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;craiglmccarthy&#39;</span>
+PASSWORD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;password&#39;</span>
+LOGIN_PAGE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://loginpage.com&#39;</span>
+
+<span style="color:#75715e"># A .txt file containing URLs to be added to WARC file</span>
+URLS_TO_WARC <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;exampleURLs.txt&#39;</span>
+WARC_NAME <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;output.warc.gz&#39;</span>
+
+<span style="color:#75715e"># Login credentials, make empty to get public view of website</span>
+payload <span style="color:#f92672">=</span> {
+    <span style="color:#e6db74">&#39;Username&#39;</span>: USERNAME,
+    <span style="color:#e6db74">&#39;Password&#39;</span>: PASSWORD,
+}
+
+<span style="color:#75715e"># Load the .txt file and build list</span>
+<span style="color:#66d9ef">with</span> open(URLS_TO_WARC, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> f:
+    lines_file <span style="color:#f92672">=</span> [line<span style="color:#f92672">.</span>strip() <span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> f]
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs to be added to WARC:&#39;</span>, len(lines_file), <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)
+time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">3</span>)
+
+<span style="color:#75715e"># Start capture session</span>
+<span style="color:#66d9ef">with</span> capture_http(WARC_NAME):
+    <span style="color:#75715e"># Start requests session---------------------------------------------------</span>
+    <span style="color:#66d9ef">with</span> requests<span style="color:#f92672">.</span>Session() <span style="color:#66d9ef">as</span> sess:
+      <span style="color:#75715e"># Set headers / emulate a real browser</span>
+        headers <span style="color:#f92672">=</span> {
+            <span style="color:#e6db74">&#39;User-Agent&#39;</span>: <span style="color:#e6db74">&#39;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) \</span>
+                AppleWebKit<span style="color:#f92672">/</span><span style="color:#ae81ff">537.36</span> (KHTML, like Gecko) \
+                    Chrome<span style="color:#f92672">/</span><span style="color:#ae81ff">50.0</span><span style="color:#f92672">.</span><span style="color:#ae81ff">2661.102</span> Safari<span style="color:#f92672">/</span><span style="color:#ae81ff">537.36</span><span style="color:#e6db74">&#39;}</span>
+        res <span style="color:#f92672">=</span> sess<span style="color:#f92672">.</span>get(LOGIN_PAGE, headers<span style="color:#f92672">=</span>headers)
+        <span style="color:#75715e"># Get validation token by parsing HTML</span>
+        signin <span style="color:#f92672">=</span> BeautifulSoup(res<span style="color:#f92672">.</span>text, <span style="color:#e6db74">&#39;html.parser&#39;</span>)
+        tok <span style="color:#f92672">=</span> signin<span style="color:#f92672">.</span>find_all(<span style="color:#e6db74">&#39;input&#39;</span>)
+        <span style="color:#75715e"># Add token to payload</span>
+        payload[<span style="color:#e6db74">&#39;__RequestVerificationToken&#39;</span>] <span style="color:#f92672">=</span> tok[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#e6db74">&#34;value&#34;</span>]
+        <span style="color:#75715e"># Submit login details to login page</span>
+        res <span style="color:#f92672">=</span> sess<span style="color:#f92672">.</span>post(LOGIN_PAGE,
+                        data<span style="color:#f92672">=</span>payload, headers<span style="color:#f92672">=</span>headers)
+
+        <span style="color:#75715e"># Request URLs in the context of the WARC capture----------------------</span>
+        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> lines_file:
+            <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Getting..&#39;</span>, i)
+            sess<span style="color:#f92672">.</span>get(i)
+</code></pre></div>
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/web-archiving">web archiving</a></span><span class="tag"><a href="/tags/digital-archives">digital archives</a></span><span class="tag"><a href="/tags/python">Python</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>289 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Feb 3, 2020</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="/posts/2020/03/february-2020-/-march-2020-overview/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">February 2020 / March 2020 - overview</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/posts/2020/02/january-2020-overview/">
+                                <span class="button__text">January 2020 - overview</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+                <span><a href="/">Craig McCarthy</a></span>
+            
+            
+            <span> <a href="/posts/index.xml" target="_blank" title="rss" class="rss_logo"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Theme by <a href="https://github.com/craiglmccarthy">craiglmccarthy</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.969b8470b7563ad71946878bc48387a1bd0ec02f716b9b1b78a30b94da21990d5cbb6c3b18295bcbfb43c30bfdb93988e16d012aa6d9fdf973a738ff2092ccda.js" integrity="sha512-lpuEcLdWOtcZRoeLxIOHob0OwC9xa5sbeKMLlNohmQ1cu2w7GClby/tDwwv9uTmI4W0BKqbZ/flzpzj/IJLM2g=="></script>
+
+
+
+    </body>
+</html>

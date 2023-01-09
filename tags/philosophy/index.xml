@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>philosophy on Craig McCarthy</title>
+    <link>/tags/philosophy/</link>
+    <description>Recent content in philosophy on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A New Year, a new OS!</title>
+      <link>/posts/2020/01/a-new-year-a-new-os/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/01/a-new-year-a-new-os/</guid>
+      <description>A New Year, a new operating system! After trying and failing numerous times to get Linux running satisfactorily via Oracle VirtualBox - I finally bit the bullet and went for a dual booting solution.
+After a week or so of using Linux, Ubuntu (18.04 LTS &amp;ldquo;Bionic Beaver&amp;rdquo;), I have to say that I&amp;rsquo;m loving it.</description>
+    </item>
+    
+  </channel>
+</rss>

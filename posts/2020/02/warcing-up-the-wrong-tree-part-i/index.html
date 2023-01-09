@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Craig McCarthy">
+<meta name="description" content="Web archiving can be hard. Luckily, these projects exist -
+ https://github.com/webrecorder/pywb (a complete web archive replay and recording solution) https://github.com/webrecorder/warcio (a library to write/read WARC files) https://github.com/chfoo/warcat (a library for handling WARC files) https://github.com/machawk1/warcreate (a Chrome extension for capturing webpages)  Code snippets A couple of code snippets that I&amp;rsquo;ve put together which I&amp;rsquo;ll probably refer back to." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="/posts/2020/02/warcing-up-the-wrong-tree-part-i/" />
+
+
+    <title>
+        
+            WARCing up the wrong tree - Part I | Craig McCarthy 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.12d81ddce7b91e7ad4f910db725e51d9f3dbb8e8d94fe77fd38fd5f72cc4cb00.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="WARCing up the wrong tree - Part I">
+<meta itemprop="description" content="Web archiving can be hard. Luckily, these projects exist -
+ https://github.com/webrecorder/pywb (a complete web archive replay and recording solution) https://github.com/webrecorder/warcio (a library to write/read WARC files) https://github.com/chfoo/warcat (a library for handling WARC files) https://github.com/machawk1/warcreate (a Chrome extension for capturing webpages)  Code snippets A couple of code snippets that I&rsquo;ve put together which I&rsquo;ll probably refer back to.">
+<meta itemprop="datePublished" content="2020-02-02T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-02-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="515">
+<meta itemprop="image" content="/"/>
+
+
+
+<meta itemprop="keywords" content="web archiving,digital archives,Python," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="WARCing up the wrong tree - Part I"/>
+<meta name="twitter:description" content="Web archiving can be hard. Luckily, these projects exist -
+ https://github.com/webrecorder/pywb (a complete web archive replay and recording solution) https://github.com/webrecorder/warcio (a library to write/read WARC files) https://github.com/chfoo/warcat (a library for handling WARC files) https://github.com/machawk1/warcreate (a Chrome extension for capturing webpages)  Code snippets A couple of code snippets that I&rsquo;ve put together which I&rsquo;ll probably refer back to."/>
+
+
+
+
+
+    <meta property="article:published_time" content="2020-02-02 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <nav class="home"><a href="/">HOME</a></nav>
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/posts/">BLOG</a></li><li><a href="/tags/">#TAGS</a></li><li><a href="/about/">ABOUT</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                        </svg>
+                    </a>
+                </span>
+            
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>3 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title post-terms-title">
+                <a href="/posts/2020/02/warcing-up-the-wrong-tree-part-i/">WARCing up the wrong tree - Part I</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <p>Web archiving can be hard. Luckily, these projects exist -</p>
+<ul>
+<li><a href="https://github.com/webrecorder/pywb">https://github.com/webrecorder/pywb</a> (a complete web archive replay and recording solution)</li>
+<li><a href="https://github.com/webrecorder/warcio">https://github.com/webrecorder/warcio</a> (a library to write/read WARC files)</li>
+<li><a href="https://github.com/chfoo/warcat">https://github.com/chfoo/warcat</a> (a library for handling WARC files)</li>
+<li><a href="https://github.com/machawk1/warcreate">https://github.com/machawk1/warcreate</a> (a Chrome extension for capturing webpages)</li>
+</ul>
+<h3 id="code-snippets">Code snippets</h3>
+<p>A couple of code snippets that I&rsquo;ve put together which I&rsquo;ll probably refer back to.</p>
+<h4 id="searching-warcs-with-warcio">Searching WARCs with warcio</h4>
+<p>The following uses warcio to read WARC files. A list of URLs is supplied via a .txt file and the code determines whether the URLs exist in the collection. It&rsquo;s essentially a good way to cross-reference what should be and what actually is. This code would be even more useful if the .txt file was replaced with an XML sitemap, which is easily done.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
+<span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+<span style="color:#e6db74">&#34;&#34;&#34;Searches a collection of WARCs for URLs supplied via .txt file&#34;&#34;&#34;</span>
+<span style="color:#f92672">import</span> os
+<span style="color:#f92672">import</span> time
+
+<span style="color:#f92672">from</span> warcio.archiveiterator <span style="color:#f92672">import</span> ArchiveIterator
+
+<span style="color:#75715e"># A .txt file containing URLs used for the search</span>
+SEARCH_FILE_PATH <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;./EXAMPLE.txt&#39;</span>
+<span style="color:#75715e"># Directory containing WARC files</span>
+WARC_COLL_DIR <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;/home/craiglmccarthy/Documents/Code/pywb/collections/EXAMPLE/archive/&#39;</span>
+
+<span style="color:#75715e"># Load the .txt file and build list</span>
+<span style="color:#66d9ef">with</span> open(SEARCH_FILE_PATH, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> f:
+    lines_file <span style="color:#f92672">=</span> [line<span style="color:#f92672">.</span>strip() <span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> f]
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs to search for:&#39;</span>, len(lines_file))
+time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">3</span>)
+
+<span style="color:#75715e"># Use a set to remove duplicate URLs across WARC files</span>
+warc_set <span style="color:#f92672">=</span> set()
+warc_files <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>listdir(WARC_COLL_DIR)
+warc_files_len <span style="color:#f92672">=</span> len(warc_files)
+<span style="color:#75715e"># Open all WARC files and read</span>
+<span style="color:#66d9ef">for</span> index, filename <span style="color:#f92672">in</span> enumerate(warc_files):
+    WARC_PATH <span style="color:#f92672">=</span> WARC_COLL_DIR <span style="color:#f92672">+</span> filename
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Loading WARCs from: &#39;</span> <span style="color:#f92672">+</span> filename <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;...&#39;</span> <span style="color:#f92672">+</span>
+          str(index <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> str(warc_files_len))
+    <span style="color:#75715e"># Load WARC and iterate through the records</span>
+    <span style="color:#66d9ef">with</span> open(WARC_PATH, <span style="color:#e6db74">&#39;rb&#39;</span>) <span style="color:#66d9ef">as</span> stream:
+        <span style="color:#66d9ef">for</span> record <span style="color:#f92672">in</span> ArchiveIterator(stream):
+            <span style="color:#66d9ef">if</span> record<span style="color:#f92672">.</span>rec_type <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;response&#39;</span>:
+                uri <span style="color:#f92672">=</span> record<span style="color:#f92672">.</span>rec_headers<span style="color:#f92672">.</span>get_header(<span style="color:#e6db74">&#39;WARC-Target-URI&#39;</span>)
+                warc_set<span style="color:#f92672">.</span>add(uri)
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Searching for URLs...&#39;</span>)
+<span style="color:#75715e"># Loop through URL list to search the WARC collection</span>
+url_in_warc <span style="color:#f92672">=</span> []
+url_not_in_warc <span style="color:#f92672">=</span> []
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> lines_file:
+    <span style="color:#66d9ef">if</span> i <span style="color:#f92672">in</span> warc_set:
+        url_in_warc<span style="color:#f92672">.</span>append(i)
+    <span style="color:#66d9ef">else</span>:
+        url_not_in_warc<span style="color:#f92672">.</span>append(i)
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;--------------------&#39;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs searched for:&#39;</span>, len(lines_file))
+<span style="color:#66d9ef">print</span>(len(warc_set), <span style="color:#e6db74">&#39;URLs in the WARC collection&#39;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs FOUND from list in WARC collection:&#39;</span>, len(url_in_warc))
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs MISSING from list in WARC collection:&#39;</span>, len(url_not_in_warc))
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;URLs missing:&#39;</span>, url_not_in_warc)
+</code></pre></div><h4 id="browser-automation-for-pywb">Browser automation for pywb</h4>
+<p>Pywb records webpages through the browser. While it outputs high quality WARCs, due to it actually loading the DOM - the capturing process can be very slow. The following snippet can open up hundreds of tabs at once when provided with a list of URLs. Pywb can then record all of the HTTP traffic coming in. It&rsquo;s a little bit unorthodox, but it works.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
+<span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+
+<span style="color:#e6db74">&#34;&#34;&#34;Loops through .txt file to open URLs in a browser - to be used in conjunction with pywb in recording mode&#34;&#34;&#34;</span>
+
+<span style="color:#f92672">import</span> webbrowser
+<span style="color:#f92672">import</span> time
+
+<span style="color:#75715e"># Collection name used in pywb</span>
+COLLECTION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;EXAMPLE&#39;</span>
+FILE_PATH <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;/home/craiglmccarthy/EXAMPLE.txt&#39;</span>
+START <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+END <span style="color:#f92672">=</span> <span style="color:#ae81ff">250</span> <span style="color:#75715e"># None is until the end</span>
+
+<span style="color:#75715e"># Open file and add URLs to list</span>
+<span style="color:#66d9ef">with</span> open(FILE_PATH, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> f:
+    lines <span style="color:#f92672">=</span> [line<span style="color:#f92672">.</span>strip() <span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> f]
+
+<span style="color:#66d9ef">print</span>(len(lines), <span style="color:#e6db74">&#39;lines loaded.&#39;</span>)
+<span style="color:#66d9ef">print</span>(START, END)
+time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">2</span>)
+
+<span style="color:#75715e"># Loop through to open tabs in Firefox</span>
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> lines[START:END]:
+    webbrowser<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;firefox&#39;</span>)<span style="color:#f92672">.</span>open(f<span style="color:#e6db74">&#39;http://localhost:8080/{COLLECTION}/record/{i}&#39;</span>)
+</code></pre></div><p>This post carries on in Part II, <a href="/posts/2020/02/warcing-up-the-wrong-tree-part-ii/">here</a>.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/web-archiving">web archiving</a></span><span class="tag"><a href="/tags/digital-archives">digital archives</a></span><span class="tag"><a href="/tags/python">Python</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>515 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Feb 2, 2020</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="/posts/2020/02/january-2020-overview/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">January 2020 - overview</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/posts/2020/02/python-blockchain/">
+                                <span class="button__text">Python blockchain</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+                <span><a href="/">Craig McCarthy</a></span>
+            
+            
+            <span> <a href="/posts/index.xml" target="_blank" title="rss" class="rss_logo"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Theme by <a href="https://github.com/craiglmccarthy">craiglmccarthy</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.969b8470b7563ad71946878bc48387a1bd0ec02f716b9b1b78a30b94da21990d5cbb6c3b18295bcbfb43c30bfdb93988e16d012aa6d9fdf973a738ff2092ccda.js" integrity="sha512-lpuEcLdWOtcZRoeLxIOHob0OwC9xa5sbeKMLlNohmQ1cu2w7GClby/tDwwv9uTmI4W0BKqbZ/flzpzj/IJLM2g=="></script>
+
+
+
+    </body>
+</html>

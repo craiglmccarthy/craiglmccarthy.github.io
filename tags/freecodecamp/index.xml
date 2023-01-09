@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>freeCodeCamp on Craig McCarthy</title>
+    <link>/tags/freecodecamp/</link>
+    <description>Recent content in freeCodeCamp on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/freecodecamp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The great 2020 plan - revisited</title>
+      <link>/posts/2020/09/the-great-2020-plan-revisited/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/09/the-great-2020-plan-revisited/</guid>
+      <description>I thought it would be good to revisit my great 2020 plan from the start of the year and see the progress that I&amp;rsquo;ve made. I&amp;rsquo;d say I&amp;rsquo;ve made reasonable progress, but not as much as I&amp;rsquo;d have liked. I put this partially down to my shifting interests - notably getting more and more interested in the world of blockchains and cryptocurrencies.</description>
+    </item>
+    
+    <item>
+      <title>January 2020 - overview</title>
+      <link>/posts/2020/02/january-2020-overview/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/january-2020-overview/</guid>
+      <description>It has been a quite varied month.
+  I attended two coding meetups:
+  New Year&amp;rsquo;s Hyperledger @ PwC More London
+  IBM Code London - Audio Classification with Convolutional Neural Networks @ Techspace Shoreditch
+    I built a blockchain using Python, more on that here</description>
+    </item>
+    
+    <item>
+      <title>The great 2020 plan</title>
+      <link>/posts/2020/01/the-great-2020-plan/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/01/the-great-2020-plan/</guid>
+      <description>Here&amp;rsquo;s an outline of what I&amp;rsquo;d like to achieve throughout 2020.
+Math I&amp;rsquo;ve decided to brush up on my math in preparation for a machine learning course that I&amp;rsquo;ll be starting in April.
+ Complete Data Science Math Skills - Duke University Complete Mathematics for Machine Learning Specialization - Imperial College London Go through the 3Blue1Brown playlists Do some Khan Academy courses if necessary (Algebra I, Precalculus, Statistics &amp;amp; Probability, Calculus I, Multivariable Calculus, and Linear Algebra)  Data Science Data Science-esque things took a back seat towards the end of last year (though I was using Juypter Notebooks/pandas here and there), but I&amp;rsquo;m going to be getting back into it.</description>
+    </item>
+    
+    <item>
+      <title>November 2019 - overview</title>
+      <link>/posts/2019/12/november-2019-overview/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/november-2019-overview/</guid>
+      <description>November saw me finishing Make Your Own Neural Network (Rashid, 2016), making good progress with the freeCodeCamp - JavaScript Algorithms and Data Structures Certification, and attending my first coding meetup with London Python.
+Make Your Own Neural Network was a great read - it definitely demystified the goings on in neural networks.</description>
+    </item>
+    
+    <item>
+      <title>October 2019 - overview</title>
+      <link>/posts/2019/11/october-2019-overview/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/11/october-2019-overview/</guid>
+      <description>My greatest achievement of October was that I finally managed to finish the freeCodeCamp Responsive Web Design Certification, the Github repository is available here. It took a lot longer than I had originally anticipated, though towards the end I think I had got my workflows figured out. Next stop - the JavaScript Algorithms and Data Structures Certification.</description>
+    </item>
+    
+    <item>
+      <title>September 2019 - overview</title>
+      <link>/posts/2019/10/september-2019-overview/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/10/september-2019-overview/</guid>
+      <description>This month was a bit busier than the previous month.
+I have decided to take a break from DataCamp and have decided to hit up the books instead. I&amp;rsquo;ll return to DataCamp after I&amp;rsquo;ve finished reading -
+ Python for Data Analysis (McKinney, 2017) Data Science from Scratch (Grus, 2019)  I started to watch the 2019 CS50 lectures from Harvard University, CS50 being an introductory computer science course.</description>
+    </item>
+    
+    <item>
+      <title>August 2019 - overview</title>
+      <link>/posts/2019/09/august-2019-overview/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/09/august-2019-overview/</guid>
+      <description>It was a fairly quiet month on the coding front. The first half of the month was largely taken up by a visit to Poland - to the cities of Krakow and Warsaw. I had a great time and I definitely had my fair share of pierogi.
+Here&amp;rsquo;s the progress that I made in August -</description>
+    </item>
+    
+    <item>
+      <title>July 2019 - overview</title>
+      <link>/posts/2019/08/july-2019-overview/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/08/july-2019-overview/</guid>
+      <description>This month mostly consisted of readings. I made my way through HTML and CSS: Design and Build Websites (Duckett, 2011), JavaScript and jQuery: Interactive Front-End Web Development (Duckett, 2013), and I started Python for Data Analysis (McKinney, 2017).
+The web development books served as both a refresher (I&amp;rsquo;ve already got quite a bit of experience regarding HTML and CSS) and a primer for the freeCodeCamp courses that I hope to start in August.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>digital archives on Craig McCarthy</title>
+    <link>/tags/digital-archives/</link>
+    <description>Recent content in digital archives on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/digital-archives/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Theory and Craft of Digital Preservation</title>
+      <link>/posts/2020/04/the-theory-and-craft-of-digital-preservation/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/04/the-theory-and-craft-of-digital-preservation/</guid>
+      <description>I&amp;rsquo;m currently reading a book called The Theory and Craft of Digital Preservation (Owens, T. 2018). While it doesn&amp;rsquo;t sound that exciting - I&amp;rsquo;m really enjoying it. I like how the author highlights some important things to consider using some really interesting examples.
+  Alexei Shulgin&amp;rsquo;s Form Art - aesthetic considerations, how web browsers display HTML changes over time, how important is the browser rendering?</description>
+    </item>
+    
+    <item>
+      <title>February 2020 / March 2020 - overview</title>
+      <link>/posts/2020/03/february-2020-/-march-2020-overview/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/03/february-2020-/-march-2020-overview/</guid>
+      <description>It has been a steady couple of months, despite the world going into lockdown over COVID-19.
+I&amp;rsquo;ve mostly been occupied with web archiving and digital preservation stuff. I&amp;rsquo;ve been playing around with the Internet Archive&amp;rsquo;s brozzler crawler; using ExifTool to modify metadata; and I&amp;rsquo;ve been writing all sorts of scripts/tools to automate small tasks (I&amp;rsquo;m thinking of putting them together as a collection on GitHub).</description>
+    </item>
+    
+    <item>
+      <title>WARCing up the wrong tree - Part II</title>
+      <link>/posts/2020/02/warcing-up-the-wrong-tree-part-ii/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/warcing-up-the-wrong-tree-part-ii/</guid>
+      <description>A continuation of my WARCings.
+Writing WARCs with warcio The following code logs into a website and uses warcio to write logged-in pages to a WARC file. This would be especially useful for capturing basic webpages / media files. It will have to be improved in order to capture embedded resources - this is probably relatively straightforward though.</description>
+    </item>
+    
+    <item>
+      <title>WARCing up the wrong tree - Part I</title>
+      <link>/posts/2020/02/warcing-up-the-wrong-tree-part-i/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/warcing-up-the-wrong-tree-part-i/</guid>
+      <description>Web archiving can be hard. Luckily, these projects exist -
+ https://github.com/webrecorder/pywb (a complete web archive replay and recording solution) https://github.com/webrecorder/warcio (a library to write/read WARC files) https://github.com/chfoo/warcat (a library for handling WARC files) https://github.com/machawk1/warcreate (a Chrome extension for capturing webpages)  Code snippets A couple of code snippets that I&amp;rsquo;ve put together which I&amp;rsquo;ll probably refer back to.</description>
+    </item>
+    
+    <item>
+      <title>Web crawling</title>
+      <link>/posts/2019/12/web-crawling/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/web-crawling/</guid>
+      <description>December started with me looking into web crawling. I managed to set up the Heritrix web crawler, which as the Github README reads -
+ Heritrix is the Internet Archive&amp;rsquo;s open-source, extensible, web-scale, archival-quality web crawler project. Heritrix (sometimes spelled heretrix, or misspelled or missaid as heratrix/heritix/heretix/heratix) is an archaic word for heiress (woman who inherits).</description>
+    </item>
+    
+  </channel>
+</rss>

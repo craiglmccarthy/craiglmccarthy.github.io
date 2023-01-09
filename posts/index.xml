@@ -1,0 +1,972 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Craig McCarthy</title>
+        <link>/posts/</link>
+        <description>Recent content in Posts on Craig McCarthy</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>The great 2020 plan - revisited</title>
+            <link>/posts/2020/09/the-great-2020-plan-revisited/</link>
+            <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/09/the-great-2020-plan-revisited/</guid>
+            <description>I thought it would be good to revisit my great 2020 plan from the start of the year and see the progress that I&amp;rsquo;ve made. I&amp;rsquo;d say I&amp;rsquo;ve made reasonable progress, but not as much as I&amp;rsquo;d have liked. I put this partially down to my shifting interests - notably getting more and more interested in the world of blockchains and cryptocurrencies.</description>
+            <content type="html"><![CDATA[<p>I thought it would be good to revisit my great 2020 plan from the start of the year and see the progress that I&rsquo;ve made. I&rsquo;d say I&rsquo;ve made <em>reasonable</em> progress, but not as much as I&rsquo;d have liked. I put this partially down to my shifting interests - notably getting more and more interested in the world of blockchains and cryptocurrencies.</p>
+<p>From the original plan I&rsquo;d definitely still like to get the Brian Harvey lectures watched, a few more books read, and the rest of the freeCodeCamp syllabus completed. However, I have started to eye up courses in blockchain programming&hellip; 😊</p>
+<p>Here&rsquo;s the original plan -</p>
+<blockquote>
+<p>Here&rsquo;s an outline of what I&rsquo;d like to achieve throughout 2020.</p>
+<h2 id="math">Math</h2>
+<p>I&rsquo;ve decided to brush up on my math in preparation for a machine learning course that I&rsquo;ll be starting in April.</p>
+<ul>
+<li><del>Complete <a href="https://www.coursera.org/learn/datasciencemathskills">Data Science Math Skills</a> - Duke University</del></li>
+<li><del>Complete <a href="https://www.coursera.org/specializations/mathematics-machine-learning">Mathematics for Machine Learning Specialization</a> - Imperial College London</del></li>
+<li><del>Go through the <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a> playlists</del></li>
+<li>Do some Khan Academy courses if necessary (Algebra I, Precalculus, Statistics &amp; Probability, Calculus I, Multivariable Calculus, and Linear Algebra)</li>
+</ul>
+<h2 id="data-science">Data Science</h2>
+<p>Data Science-esque things took a back seat towards the end of last year (though I was using Juypter Notebooks/pandas here and there), but I&rsquo;m going to be getting back into it.</p>
+<ul>
+<li><del>Complete <a href="https://www.city.ac.uk/study/courses/short-courses/courses/introduction-to-data-analysis-and-machine-learning-with-python"><em>Introduction to Data Analytics and Machine Learning with Python</em></a> - City, University of London</del></li>
+<li>Complete the DataCamp - Data Scientist with Python career track</li>
+</ul>
+<h2 id="web-stuff">Web Stuff</h2>
+<p>Complete the freeCodeCamp syllabus.</p>
+<p>The following certificates remain to be completed:</p>
+<ul>
+<li>Front End Libraries</li>
+<li>Data Visualization</li>
+<li>APIs and Microservices</li>
+</ul>
+<h2 id="computer-science">Computer Science</h2>
+<p>I want to learn more about the fundamentals of computer science. These look pretty old-school but the word on the street is that they&rsquo;re good:</p>
+<ul>
+<li>
+<p>Brian Harvey’s <a href="https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter"><em>Structure and Interpretation of Computer Programs</em> lectures</a> - University of California, Berkeley</p>
+</li>
+<li>
+<p>Ableson and Sussman&rsquo;s <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/"><em>Structure and Interpretation of Computer Programs</em> lectures</a> - MIT</p>
+</li>
+</ul>
+<h2 id="books">Books</h2>
+<p>Books and essays that I&rsquo;d like to read:</p>
+<ul>
+<li><del>Flatland (Abbott, 1884)</del></li>
+<li><del>A Mathematician’s Apology (Hardy, 1940)</del></li>
+<li><del>The Man Who Loved Only Numbers (Hoffman, 1998)</del></li>
+<li><em>What is Mathematics?</em> (Courant and Robbins, 1940)</li>
+<li><em>The C Programming Language</em> (Kernighan and Ritchie, 1978)</li>
+<li><em>The Pragmatic Programmer: From Journeyman to Master</em> (Hunt and Thomas, 1999)</li>
+<li><em>The Mythical Man-Month: Essays on Software Engineering</em> (Brooks, 1975)</li>
+<li><em>Hackers: Heroes of the Computer Revolution</em> (Levy, 1984)</li>
+<li><del>As We May Think (Bush, 1945)</del></li>
+<li><del>Computing machinery and intelligence (Turing, 1950)</del></li>
+<li><em>The Annotated Turing</em> (Petzold, 2008)</li>
+<li><em>Structure and Interpretation of Computer Programs</em> (Abelson and Sussman, 1985)</li>
+<li><del>The Cathedral &amp; the Bazaar: Musings on Linux and Open Source (Raymond, 1999)</del></li>
+</ul>
+</blockquote>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Ethereum 2.0 - Medalla Testnet</title>
+            <link>/posts/2020/09/ethereum-2.0-medalla-testnet/</link>
+            <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/09/ethereum-2.0-medalla-testnet/</guid>
+            <description>Ethereum 2.0 node running on my Raspberry Pi - I&amp;#39;ve still yet to read the book, but I thought these together would make a good photo op  After taking part in the Topaz testnet, I obviously had to take part in Ethereum 2.0&amp;rsquo;s &amp;ldquo;official&amp;rdquo; multi-client testnet 😊 - hopefully the final testnet before mainnet launches.</description>
+            <content type="html"><![CDATA[
+    <figure class="center" >
+        <img src="/img/ethereum-2.0-node.jpg"   />
+
+        
+            <figcaption class="center" >Ethereum 2.0 node running on my Raspberry Pi - I&#39;ve still yet to read the book, but I thought these together would make a good photo op</figcaption>
+        
+    </figure>
+
+
+<p>After taking part in the Topaz testnet, I obviously had to take part in Ethereum 2.0&rsquo;s &ldquo;official&rdquo; multi-client testnet 😊 - hopefully the final testnet before mainnet launches.</p>
+<p>The testnet has been eventful and it had a very bumpy start after a major bug was discovered in the Prysm client - which resulted in taking down a majority of the validators on the network. The bug related to time sync issues caused by roughtime cloud servers. More on the incident can be found here - <a href="https://medium.com/prysmatic-labs/eth2-medalla-testnet-incident-f7fbc3cc934a">https://medium.com/prysmatic-labs/eth2-medalla-testnet-incident-f7fbc3cc934a</a>.</p>
+<p>The network was struggling with finalization issues for multiple days, but amazingly the network never died. Apparently, the network has been designed to survive a WW3 type of event, so it was awesome to see this in action.</p>
+<p>As a bonus, because my node was online and still attesting blocks throughout this period, I was able to claim a &ldquo;Medalla Testnet Resuscitator POAP&rdquo;, my very first non-fungible token -</p>
+
+    <figure class="center" >
+        <img src="/img/medalla-resuscitator-poap.png"   />
+
+        
+            <figcaption class="center" >My &#34;Medalla Testnet Resuscitator POAP&#34; - only about 500 in existence!</figcaption>
+        
+    </figure>
+
+
+<p>After a month or so I decided to switch clients. I had been running the Prysm client, but decided to give the Lighthouse client a go. I definitely also wanted to earn the Lighthouse client POAP too (I had already got the Prysm client POAP in the bag).</p>
+<p>I got Lighthouse up and running on my Raspberry Pi by following these handy guides -</p>
+<ul>
+<li>
+<p><a href="https://hive.blog/ethereum/@tarekadam/altona-test-net-validator-using-raspberry-pi4b-8-gb">https://hive.blog/ethereum/@tarekadam/altona-test-net-validator-using-raspberry-pi4b-8-gb</a></p>
+</li>
+<li>
+<p><a href="https://medium.com/@SomerEsat/guide-to-staking-on-ethereum-2-0-ubuntu-medalla-lighthouse-c6f3c34597a8">https://medium.com/@SomerEsat/guide-to-staking-on-ethereum-2-0-ubuntu-medalla-lighthouse-c6f3c34597a8</a></p>
+</li>
+</ul>
+
+    <figure class="center" >
+        <img src="/img/geth-lighthouse.png"   />
+
+        
+            <figcaption class="center" >Ethereum 2.0 - geth &#43; Lighthouse beacon node &#43; Lighthouse validator</figcaption>
+        
+    </figure>
+
+
+<p>In this configuration, it&rsquo;s also my first time running an Ethereum geth node too. All in all, it&rsquo;s been fun getting these nodes operational and I&rsquo;ve brushed up on a bit of Linux sysadmin stuff too.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>September 2020 - update</title>
+            <link>/posts/2020/09/september-2020-update/</link>
+            <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/09/september-2020-update/</guid>
+            <description>It&amp;rsquo;s been quite a long time since my last update. Things that I&amp;rsquo;ve done since May -
+ I completed a short course at City, University of London - Introduction to Data Analytics and Machine Learning with Python Attended an online webinar hosted by IBM on quantum computing - Throwing the dice with a Quantum Computer Set up another Ethereum 2.</description>
+            <content type="html"><![CDATA[<p>It&rsquo;s been quite a long time since my last update. Things that I&rsquo;ve done since May -</p>
+<ul>
+<li>I completed a short course at City, University of London - <a href="https://www.city.ac.uk/study/courses/short-courses/courses/introduction-to-data-analysis-and-machine-learning-with-python"><em>Introduction to Data Analytics and Machine Learning with Python</em></a></li>
+<li>Attended an online webinar hosted by IBM on quantum computing - <a href="https://www.meetup.com/IBM-Code-London/events/271774335/">Throwing the dice with a Quantum Computer</a></li>
+<li>Set up another Ethereum 2.0 node, this time on the Medalla testnet, more on that <a href="/posts/2020/09/ethereum-2.0-medalla-testnet/">here</a></li>
+</ul>
+<hr>
+<p>I really enjoyed the DAML course, it was challenging and it definitely covered a lot more ground over the 10 weeks than I had originally anticipated.</p>
+<p>It covered everything from - NumPy, Matplotlib, stats, pandas, web scraping, sklearn, supervised/unsupervised learning, PCA, and neural networks.</p>
+<p>The course was definitely useful in that it gave a great overview of the field and it&rsquo;s equipped me with some practical skills and knowledge of tools/techniques that I might find useful in the future.</p>
+<p>I attended a IBM webinar on quantum computing, where we built a quantum circuit using IBM Q Experience and we explored the <a href="https://github.com/Qiskit/qiskit">Qiskit</a> Python library. It culminated in generating a random number with a real quantum computer, a thing that I imagine very few people have done - I got a number 6.</p>
+<p>The GitHub repo for the meetup is here - <a href="https://github.com/IBMDeveloperUK/Hello-Quantum-World.">https://github.com/IBMDeveloperUK/Hello-Quantum-World</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>April 2020 / May 2020 - overview</title>
+            <link>/posts/2020/05/april-2020-/-may-2020-overview/</link>
+            <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/05/april-2020-/-may-2020-overview/</guid>
+            <description>Things that I’ve done over the past couple of months.
+  Wrote a tool that monitors changes to sitemaps. I needed something that would detect newly published webpages for archival capture. The Github repo is here.
+  I started a short course at City, University of London - Introduction to Data Analytics and Machine Learning with Python.</description>
+            <content type="html"><![CDATA[<p>Things that I’ve done over the past couple of months.</p>
+<ul>
+<li>
+<p>Wrote a tool that monitors changes to sitemaps. I needed something that would detect newly published webpages for archival capture. The Github repo is <a href="https://github.com/craiglmccarthy/sitemap-monitor">here</a>.</p>
+</li>
+<li>
+<p>I started a short course at City, University of London - <a href="https://www.city.ac.uk/study/courses/short-courses/courses/introduction-to-data-analysis-and-machine-learning-with-python"><em>Introduction to Data Analytics and Machine Learning with Python</em></a>. The course has really hit the ground running and has been quite challenging. So far it has covered - Python and Jupyter; NumPy; and Matplotlib.</p>
+</li>
+<li>
+<p>Attended a couple of virtual meet-ups.</p>
+<ul>
+<li>
+<h4 id="understanding-ai---virtual-conference---ibm">Understanding A.I. - Virtual Conference - IBM</h4>
+<p>This meetup was really interesting and was very broad in its scope. It featured segments on A.I. in computing and society, machine learning and generative adversarial networks (GAN), and the ethical issues machine learning. One of the most interesting things that was presented was <a href="https://en.wikipedia.org/wiki/StyleGAN">StyleGAN</a>, a GAN that generates fake human faces - freaky.</p>
+</li>
+<li>
+<h4 id="build-and-deploy-custom-ai-predictive-models---ibm">Build and deploy custom AI predictive models - IBM</h4>
+<p>This meetup looked at building machine learning models using IBM&rsquo;s AutoAI. The demonstration looked at predicting houses prices from a set of their attributes.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Blockchain stuff. I’ve been running a beacon node and validator client on the Topaz Testnet for Ethereum 2.0 (this is detailed in another post). I’ve also downloaded a full Bitcoin node. I want to have a play around with the bitcoin console, construct some raw transactions etc.</p>
+</li>
+</ul>
+
+    <figure class="center" >
+        <img src="/img/bitcoin_core.png"   />
+
+        
+            <figcaption class="center" >Bitcoin Core - only 10 years of blockchain data to download...</figcaption>
+        
+    </figure>
+
+
+<p>As a side note, it has been nearly a year since I started writing stuff on this blog - how time flies, as they say.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Ethereum 2.0 validator - Topaz Testnet</title>
+            <link>/posts/2020/05/ethereum-2.0-validator-topaz-testnet/</link>
+            <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/05/ethereum-2.0-validator-topaz-testnet/</guid>
+            <description>Over the past year or so I&amp;rsquo;ve become increasingly interested in blockchains/cryptocurrencies, especially Ethereum - a blockchain famed for its executable smart contracts.
+The project is to undergo a major upgrade over the coming years, resulting in Ethereum 2.0
+The upgrade aims to address scalability issues of Ethereum 1.0 via &amp;lsquo;sharding&amp;rsquo; - which essentially means breaking up the blockchain into multiple blockchains.</description>
+            <content type="html"><![CDATA[<p>Over the past year or so I&rsquo;ve become increasingly interested in blockchains/cryptocurrencies, especially Ethereum - a blockchain famed for its executable smart contracts.</p>
+<p>The project is to undergo a major upgrade over the coming years, resulting in Ethereum 2.0</p>
+<p>The upgrade aims to address scalability issues of Ethereum 1.0 via &lsquo;sharding&rsquo; - which essentially means breaking up the blockchain into multiple blockchains. These multiple blockchains will communicate through a root chain, known as the beacon chain. In addition to this new architecture, Ethereum 2.0 will replace the proof of work (POW) consensus algorithm with proof of stake (POS). The upgrades are to be rolled out in phases, phase 0 being the introduction of the beacon chain and proof of stake.</p>
+<p>Before phase 0 goes live (sometime later this year?), I thought I&rsquo;d get involved in the public Topaz Testnet for Ethereum 2.0 and give <a href="https://prylabs.net/">Prysmatic Labs</a> beacon node and validator client a try.</p>
+<p>Each validator has to have a minimum of 32 ETH staked (in this case, test Göerli ETH). Validators receive an income for being online and validating slots. However, they are also penalised for being offline or for doing something unscrupulous, such as double voting.</p>
+
+    <figure class="center" >
+        <img src="/img/validator-node.png"   />
+
+        
+            <figcaption class="center" >The Prysm beacon node and validator client doing its thing</figcaption>
+        
+    </figure>
+
+
+<p>At the time of this screenshot, there were around 90 nodes registered to eth2stats -</p>
+
+    <figure class="center" >
+        <img src="/img/eth2stats.io_topaz-testnet_map.png"   />
+
+        
+            <figcaption class="center" >Topaz Testnet - validator map</figcaption>
+        
+    </figure>
+
+
+<p>After a few weeks of validating, my validator has managed to bring home ~0.25 Göerli ETH, which works out at about 10.6% APR. I&rsquo;m quite happy with this considering that I&rsquo;ve been offline quite a lot over the period due to poor internet connectivity. My validator has also proposed 4 slots, which as a bonus allows you to &lsquo;graffiti&rsquo; a message into the blockchain 😊</p>
+
+    <figure class="center" >
+        <img src="/img/etherscan-proposed.png"   />
+
+        
+            <figcaption class="center" >Proposed slots viewed on Etherscan</figcaption>
+        
+    </figure>
+
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>The Theory and Craft of Digital Preservation</title>
+            <link>/posts/2020/04/the-theory-and-craft-of-digital-preservation/</link>
+            <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/04/the-theory-and-craft-of-digital-preservation/</guid>
+            <description>I&amp;rsquo;m currently reading a book called The Theory and Craft of Digital Preservation (Owens, T. 2018). While it doesn&amp;rsquo;t sound that exciting - I&amp;rsquo;m really enjoying it. I like how the author highlights some important things to consider using some really interesting examples.
+  Alexei Shulgin&amp;rsquo;s Form Art - aesthetic considerations, how web browsers display HTML changes over time, how important is the browser rendering?</description>
+            <content type="html"><![CDATA[<p>I&rsquo;m currently reading a book called <em>The Theory and Craft of Digital Preservation</em> (Owens, T. 2018). While it doesn&rsquo;t sound that exciting - I&rsquo;m really enjoying it. I like how the author highlights some important things to consider using some really interesting examples.</p>
+<ul>
+<li>
+<p>Alexei Shulgin&rsquo;s Form Art - aesthetic considerations, how web browsers display HTML changes over time, how important is the browser rendering? is the source code the art? The artwork can be seen here - <a href="http://www.c3.hu/collection/form/">http://www.c3.hu/collection/form/</a>. It was originally made in 1997 so it would have looked a lot different then.</p>
+</li>
+<li>
+<p>The Oregon Trail - the &ldquo;Here lies andy; peperony and chease&rdquo; epitaph that made its way into numerous bootleg copies of the game.</p>
+</li>
+<li>
+<p>World of Warcraft - the challenges of archiving experience/internet based media, does archiving the source code of the game really capture its essence and cultural impact?</p>
+</li>
+<li>
+<p>The archiving of Salmon Rushie&rsquo;s laptops - providing valuable insight into the creative process. An article from <em>The Atlantic</em> provides some more detail - <a href="https://www.theatlantic.com/entertainment/archive/2010/04/snooping-through-salman-rushdies-computer/39260/">https://www.theatlantic.com/entertainment/archive/2010/04/snooping-through-salman-rushdies-computer/39260/</a>.</p>
+</li>
+</ul>
+<p>After the mention of The Oregon Trail, I couldn&rsquo;t resist giving it a quick blast -</p>
+
+    <figure class="center" >
+        <img src="/img/oregon-trail.png"   />
+
+        
+            <figcaption class="center" >Things didn&#39;t look too good</figcaption>
+        
+    </figure>
+
+
+<p>This is the 1991 version of the game running on an emulated Macintosh Plus (hardware emulation being another topic that the book touches on). This emulation is available in the browser - <a href="https://jamesfriend.com.au/pce-js/">https://jamesfriend.com.au/pce-js/</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Structure and Interpretation of Computer Programs</title>
+            <link>/posts/2020/04/structure-and-interpretation-of-computer-programs/</link>
+            <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/04/structure-and-interpretation-of-computer-programs/</guid>
+            <description>I&amp;rsquo;ve made a start on Brian Harvey’s Structure and Interpretation of Computer Programs lectures - based on the book with the same name. I&amp;rsquo;m about 7 lectures in and I&amp;rsquo;m enjoying it so far. My only gripe is that the videos look like they were filmed in the 1980s - when they are actually from 2011.</description>
+            <content type="html"><![CDATA[<p>I&rsquo;ve made a start on Brian Harvey’s <a href="https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter"><em>Structure and Interpretation of Computer Programs</em> lectures</a> - based on the book with the same name. I&rsquo;m about 7 lectures in and I&rsquo;m enjoying it so far. My only gripe is that the videos look like they were filmed in the 1980s - when they are actually from 2011.</p>
+<p>The course makes use of Scheme, my thoughts on the language so far -</p>
+<pre><code>(define s '(Scheme is...))
+(if (equal? 2 (+ 1 1))
+    (se s '(weird))
+    (se s'(a minimalist dialect of the Lisp family of programming languages)))
+</code></pre>]]></content>
+        </item>
+        
+        <item>
+            <title>February 2020 / March 2020 - overview</title>
+            <link>/posts/2020/03/february-2020-/-march-2020-overview/</link>
+            <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/03/february-2020-/-march-2020-overview/</guid>
+            <description>It has been a steady couple of months, despite the world going into lockdown over COVID-19.
+I&amp;rsquo;ve mostly been occupied with web archiving and digital preservation stuff. I&amp;rsquo;ve been playing around with the Internet Archive&amp;rsquo;s brozzler crawler; using ExifTool to modify metadata; and I&amp;rsquo;ve been writing all sorts of scripts/tools to automate small tasks (I&amp;rsquo;m thinking of putting them together as a collection on GitHub).</description>
+            <content type="html"><![CDATA[<p>It has been a steady couple of months, despite the world going into lockdown over COVID-19.</p>
+<p>I&rsquo;ve mostly been occupied with web archiving and digital preservation stuff. I&rsquo;ve been playing around with the Internet Archive&rsquo;s <a href="https://github.com/internetarchive/brozzler">brozzler</a> crawler; using <a href="https://github.com/exiftool/exiftool">ExifTool</a> to modify metadata; and I&rsquo;ve been writing all sorts of scripts/tools to automate small tasks (I&rsquo;m thinking of putting them together as a collection on GitHub).</p>
+<p>Regarding digital preservation - I&rsquo;ve started reading <em>The Theory and Craft of Digital Preservation</em> (Owens, T. 2018) (so far, so good) and I&rsquo;ve also found this quite cool <a href="https://stacks.wellcomecollection.org/">Stacks</a> blog from the Wellcome Collection which goes over their digital preservation strategy and tools.</p>
+<p>From the &ldquo;<a href="/posts/2020/01/the-great-2020-plan/">The Great 2020 plan</a>&quot;, I achieved the following:</p>
+<p>I read</p>
+<ul>
+<li>
+<p><em><a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/">As We May Think</a></em>(Bush, V., 1945)</p>
+</li>
+<li>
+<p><em><a href="https://academic.oup.com/mind/article/LIX/236/433/986238">Computing Machinery and Intelligence</a></em>(Turing, A., 1950)</p>
+</li>
+<li>
+<p><em>Flatland</em> (Abbott, 1884)</p>
+</li>
+<li>
+<p><em>A Mathematician’s Apology</em> (Hardy, 1940)</p>
+</li>
+<li>
+<p><em>The Man Who Loved Only Numbers</em> (Hoffman, 1998)</p>
+</li>
+<li>
+<p><em>The Cathedral &amp; the Bazaar: Musings on Linux and Open Source</em> (Raymond, 1999)</p>
+</li>
+</ul>
+<p>I really enjoyed the two articles <em>As We May Think</em> and <em>Computing Machinery and Intelligence</em>. <em>As We May Think</em> was a super cool read and I was amazed at just how visionary it was, it pretty much anticipated modern computing and the internet - in 1945. I especially liked the description of the <a href="https://en.wikipedia.org/wiki/Memex">Memex</a> -</p>
+<blockquote>
+<p>&ldquo;Consider a future device for individual use, which is a sort of mechanized private file and library. It needs a name, and, to coin one at random, &ldquo;memex&rdquo; will do. A memex is a device in which an individual stores all his books, records, and communications, and which is mechanized so that it may be consulted with exceeding speed and flexibility. It is an enlarged intimate supplement to his memory.&rdquo;</p>
+</blockquote>
+<p><em>Computing Machinery and Intelligence</em> is the paper where Turing introduces his famous Turing test. A lot of it is Turing arguing against objections to his question &lsquo;Can machines think?', such as the theological objection; the argument from consciousness; Lady Lovelace&rsquo;s objection and many others. I have to admit I found this rather quaint passage on machine learning to be quite humorous -</p>
+<blockquote>
+<p>&ldquo;It will not be possible to apply exactly the same teaching process to the machine as to a normal child. It will not, for instance, be provided with legs, so that it could not be asked to go out and fill the coal scuttle. Possibly it might not have eyes. But however well these deficiencies might be overcome by clever engineering, one could not send the creature to school without the other children making excessive fun of it.&rdquo;</p>
+</blockquote>
+<p>A couple of new Python libraries that I&rsquo;ve used recently -</p>
+<ul>
+<li>
+<p><a href="https://github.com/kootenpv/yagmail">https://github.com/kootenpv/yagmail</a> - <em>Send email in Python conveniently for gmail using yagmail</em></p>
+</li>
+<li>
+<p><a href="https://github.com/thomasahle/sunfish">https://github.com/thomasahle/sunfish</a> - <em>Sunfish: a Python Chess Engine in 111 lines of code</em></p>
+</li>
+</ul>
+
+    <figure class="center" >
+        <img src="/img/sunfish.png"   />
+
+        
+            <figcaption class="center" >Chess in the terminal :)</figcaption>
+        
+    </figure>
+
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>WARCing up the wrong tree - Part II</title>
+            <link>/posts/2020/02/warcing-up-the-wrong-tree-part-ii/</link>
+            <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/02/warcing-up-the-wrong-tree-part-ii/</guid>
+            <description>A continuation of my WARCings.
+Writing WARCs with warcio The following code logs into a website and uses warcio to write logged-in pages to a WARC file. This would be especially useful for capturing basic webpages / media files. It will have to be improved in order to capture embedded resources - this is probably relatively straightforward though.</description>
+            <content type="html"><![CDATA[<p>A continuation of my WARCings.</p>
+<h4 id="writing-warcs-with-warcio">Writing WARCs with warcio</h4>
+<p>The following code logs into a website and uses warcio to write logged-in pages to a WARC file. This would be especially useful for capturing basic webpages / media files. It will have to be improved in order to capture embedded resources - this is <em>probably</em> relatively straightforward though.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
+<span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+
+<span style="color:#e6db74">&#34;&#34;&#34;Authenticated WARC capture. Given a .txt file of URLS, this will login to a website 
+</span><span style="color:#e6db74">and write the logged in pages into a WARC file.&#34;&#34;&#34;</span>
+
+<span style="color:#f92672">import</span> time
+
+<span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
+<span style="color:#f92672">from</span> warcio <span style="color:#f92672">import</span> WARCWriter
+<span style="color:#f92672">from</span> warcio.capture_http <span style="color:#f92672">import</span> capture_http
+<span style="color:#f92672">import</span> requests  <span style="color:#75715e"># requests must be imported after capture_http</span>
+
+<span style="color:#75715e"># Login credentials</span>
+USERNAME <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;craiglmccarthy&#39;</span>
+PASSWORD <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;password&#39;</span>
+LOGIN_PAGE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://loginpage.com&#39;</span>
+
+<span style="color:#75715e"># A .txt file containing URLs to be added to WARC file</span>
+URLS_TO_WARC <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;exampleURLs.txt&#39;</span>
+WARC_NAME <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;output.warc.gz&#39;</span>
+
+<span style="color:#75715e"># Login credentials, make empty to get public view of website</span>
+payload <span style="color:#f92672">=</span> {
+    <span style="color:#e6db74">&#39;Username&#39;</span>: USERNAME,
+    <span style="color:#e6db74">&#39;Password&#39;</span>: PASSWORD,
+}
+
+<span style="color:#75715e"># Load the .txt file and build list</span>
+<span style="color:#66d9ef">with</span> open(URLS_TO_WARC, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> f:
+    lines_file <span style="color:#f92672">=</span> [line<span style="color:#f92672">.</span>strip() <span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> f]
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs to be added to WARC:&#39;</span>, len(lines_file), <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)
+time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">3</span>)
+
+<span style="color:#75715e"># Start capture session</span>
+<span style="color:#66d9ef">with</span> capture_http(WARC_NAME):
+    <span style="color:#75715e"># Start requests session---------------------------------------------------</span>
+    <span style="color:#66d9ef">with</span> requests<span style="color:#f92672">.</span>Session() <span style="color:#66d9ef">as</span> sess:
+      <span style="color:#75715e"># Set headers / emulate a real browser</span>
+        headers <span style="color:#f92672">=</span> {
+            <span style="color:#e6db74">&#39;User-Agent&#39;</span>: <span style="color:#e6db74">&#39;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) \</span>
+                AppleWebKit<span style="color:#f92672">/</span><span style="color:#ae81ff">537.36</span> (KHTML, like Gecko) \
+                    Chrome<span style="color:#f92672">/</span><span style="color:#ae81ff">50.0</span><span style="color:#f92672">.</span><span style="color:#ae81ff">2661.102</span> Safari<span style="color:#f92672">/</span><span style="color:#ae81ff">537.36</span><span style="color:#e6db74">&#39;}</span>
+        res <span style="color:#f92672">=</span> sess<span style="color:#f92672">.</span>get(LOGIN_PAGE, headers<span style="color:#f92672">=</span>headers)
+        <span style="color:#75715e"># Get validation token by parsing HTML</span>
+        signin <span style="color:#f92672">=</span> BeautifulSoup(res<span style="color:#f92672">.</span>text, <span style="color:#e6db74">&#39;html.parser&#39;</span>)
+        tok <span style="color:#f92672">=</span> signin<span style="color:#f92672">.</span>find_all(<span style="color:#e6db74">&#39;input&#39;</span>)
+        <span style="color:#75715e"># Add token to payload</span>
+        payload[<span style="color:#e6db74">&#39;__RequestVerificationToken&#39;</span>] <span style="color:#f92672">=</span> tok[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#e6db74">&#34;value&#34;</span>]
+        <span style="color:#75715e"># Submit login details to login page</span>
+        res <span style="color:#f92672">=</span> sess<span style="color:#f92672">.</span>post(LOGIN_PAGE,
+                        data<span style="color:#f92672">=</span>payload, headers<span style="color:#f92672">=</span>headers)
+
+        <span style="color:#75715e"># Request URLs in the context of the WARC capture----------------------</span>
+        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> lines_file:
+            <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Getting..&#39;</span>, i)
+            sess<span style="color:#f92672">.</span>get(i)
+</code></pre></div>]]></content>
+        </item>
+        
+        <item>
+            <title>January 2020 - overview</title>
+            <link>/posts/2020/02/january-2020-overview/</link>
+            <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/02/january-2020-overview/</guid>
+            <description>It has been a quite varied month.
+  I attended two coding meetups:
+  New Year&amp;rsquo;s Hyperledger @ PwC More London
+  IBM Code London - Audio Classification with Convolutional Neural Networks @ Techspace Shoreditch
+    I built a blockchain using Python, more on that here</description>
+            <content type="html"><![CDATA[<p>It has been a quite varied month.</p>
+<ul>
+<li>
+<p>I attended two coding meetups:</p>
+<ul>
+<li>
+<p><a href="https://www.meetup.com/Hyperledger-London/events/267685700/">New Year&rsquo;s Hyperledger</a> @ PwC More London</p>
+</li>
+<li>
+<p><a href="https://www.meetup.com/IBM-Code-London/events/267906109/">IBM Code London - Audio Classification with Convolutional Neural Networks</a> @ Techspace Shoreditch</p>
+</li>
+</ul>
+</li>
+<li>
+<p>I built a blockchain using Python, more on that <a href="/posts/2020/02/python-blockchain/">here</a></p>
+</li>
+<li>
+<p>I&rsquo;ve been getting to grips with some WARC tools, more on that <a href="/posts/2020/02/warcing-up-the-wrong-tree-part-i/">here</a></p>
+</li>
+<li>
+<p>I completed the freeCodeCamp JavaScript Algorithms and Data Structures certification</p>
+</li>
+</ul>
+<p>The Hyperledger meetup touched on enterprise usage of <a href="https://www.hyperledger.org/">Hyperledger</a> blockchains and their use in finance, supply chains, and healthcare etc. There was a demo of a blockchain application from <a href="https://blockchain.kompitech.com/pricing">KompiTech</a> - who also provide a free blockchain development toolkit.</p>
+<p>The IBM Code London meetup was on the topic of &ldquo;Audio Classification with Convolutional Neural Networks&rdquo;. A large part of the meetup involved working through a Python workbook using the IBM Cloud platform. We trained a neural network to recognise the voices of a couple of American chatshow hosts (Stephen Colbert and Conan O&rsquo;Brien). The Github page for the meetup is <a href="https://github.com/IBMDeveloperUK/Audio-Classification-w.-Convolutional-Neural-Networks">here</a>.</p>
+<p>I managed to complete the freeCodeCamp JavaScript Algorithms and Data Structures certification - it was a lot harder than the previous certification though it took less time to complete.</p>
+<p>I haven&rsquo;t made much progress regarding <a href="/posts/2020/01/the-great-2020-plan/">&ldquo;The great 2020 plan&rdquo;</a> - though I have started reading <em>The Man Who Loved Only Numbers</em> (Hoffman, 1998).</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>WARCing up the wrong tree - Part I</title>
+            <link>/posts/2020/02/warcing-up-the-wrong-tree-part-i/</link>
+            <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/02/warcing-up-the-wrong-tree-part-i/</guid>
+            <description>Web archiving can be hard. Luckily, these projects exist -
+ https://github.com/webrecorder/pywb (a complete web archive replay and recording solution) https://github.com/webrecorder/warcio (a library to write/read WARC files) https://github.com/chfoo/warcat (a library for handling WARC files) https://github.com/machawk1/warcreate (a Chrome extension for capturing webpages)  Code snippets A couple of code snippets that I&amp;rsquo;ve put together which I&amp;rsquo;ll probably refer back to.</description>
+            <content type="html"><![CDATA[<p>Web archiving can be hard. Luckily, these projects exist -</p>
+<ul>
+<li><a href="https://github.com/webrecorder/pywb">https://github.com/webrecorder/pywb</a> (a complete web archive replay and recording solution)</li>
+<li><a href="https://github.com/webrecorder/warcio">https://github.com/webrecorder/warcio</a> (a library to write/read WARC files)</li>
+<li><a href="https://github.com/chfoo/warcat">https://github.com/chfoo/warcat</a> (a library for handling WARC files)</li>
+<li><a href="https://github.com/machawk1/warcreate">https://github.com/machawk1/warcreate</a> (a Chrome extension for capturing webpages)</li>
+</ul>
+<h3 id="code-snippets">Code snippets</h3>
+<p>A couple of code snippets that I&rsquo;ve put together which I&rsquo;ll probably refer back to.</p>
+<h4 id="searching-warcs-with-warcio">Searching WARCs with warcio</h4>
+<p>The following uses warcio to read WARC files. A list of URLs is supplied via a .txt file and the code determines whether the URLs exist in the collection. It&rsquo;s essentially a good way to cross-reference what should be and what actually is. This code would be even more useful if the .txt file was replaced with an XML sitemap, which is easily done.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
+<span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+<span style="color:#e6db74">&#34;&#34;&#34;Searches a collection of WARCs for URLs supplied via .txt file&#34;&#34;&#34;</span>
+<span style="color:#f92672">import</span> os
+<span style="color:#f92672">import</span> time
+
+<span style="color:#f92672">from</span> warcio.archiveiterator <span style="color:#f92672">import</span> ArchiveIterator
+
+<span style="color:#75715e"># A .txt file containing URLs used for the search</span>
+SEARCH_FILE_PATH <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;./EXAMPLE.txt&#39;</span>
+<span style="color:#75715e"># Directory containing WARC files</span>
+WARC_COLL_DIR <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;/home/craiglmccarthy/Documents/Code/pywb/collections/EXAMPLE/archive/&#39;</span>
+
+<span style="color:#75715e"># Load the .txt file and build list</span>
+<span style="color:#66d9ef">with</span> open(SEARCH_FILE_PATH, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> f:
+    lines_file <span style="color:#f92672">=</span> [line<span style="color:#f92672">.</span>strip() <span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> f]
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs to search for:&#39;</span>, len(lines_file))
+time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">3</span>)
+
+<span style="color:#75715e"># Use a set to remove duplicate URLs across WARC files</span>
+warc_set <span style="color:#f92672">=</span> set()
+warc_files <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>listdir(WARC_COLL_DIR)
+warc_files_len <span style="color:#f92672">=</span> len(warc_files)
+<span style="color:#75715e"># Open all WARC files and read</span>
+<span style="color:#66d9ef">for</span> index, filename <span style="color:#f92672">in</span> enumerate(warc_files):
+    WARC_PATH <span style="color:#f92672">=</span> WARC_COLL_DIR <span style="color:#f92672">+</span> filename
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Loading WARCs from: &#39;</span> <span style="color:#f92672">+</span> filename <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;...&#39;</span> <span style="color:#f92672">+</span>
+          str(index <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> str(warc_files_len))
+    <span style="color:#75715e"># Load WARC and iterate through the records</span>
+    <span style="color:#66d9ef">with</span> open(WARC_PATH, <span style="color:#e6db74">&#39;rb&#39;</span>) <span style="color:#66d9ef">as</span> stream:
+        <span style="color:#66d9ef">for</span> record <span style="color:#f92672">in</span> ArchiveIterator(stream):
+            <span style="color:#66d9ef">if</span> record<span style="color:#f92672">.</span>rec_type <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;response&#39;</span>:
+                uri <span style="color:#f92672">=</span> record<span style="color:#f92672">.</span>rec_headers<span style="color:#f92672">.</span>get_header(<span style="color:#e6db74">&#39;WARC-Target-URI&#39;</span>)
+                warc_set<span style="color:#f92672">.</span>add(uri)
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Searching for URLs...&#39;</span>)
+<span style="color:#75715e"># Loop through URL list to search the WARC collection</span>
+url_in_warc <span style="color:#f92672">=</span> []
+url_not_in_warc <span style="color:#f92672">=</span> []
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> lines_file:
+    <span style="color:#66d9ef">if</span> i <span style="color:#f92672">in</span> warc_set:
+        url_in_warc<span style="color:#f92672">.</span>append(i)
+    <span style="color:#66d9ef">else</span>:
+        url_not_in_warc<span style="color:#f92672">.</span>append(i)
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;--------------------&#39;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs searched for:&#39;</span>, len(lines_file))
+<span style="color:#66d9ef">print</span>(len(warc_set), <span style="color:#e6db74">&#39;URLs in the WARC collection&#39;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs FOUND from list in WARC collection:&#39;</span>, len(url_in_warc))
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Number of URLs MISSING from list in WARC collection:&#39;</span>, len(url_not_in_warc))
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;URLs missing:&#39;</span>, url_not_in_warc)
+</code></pre></div><h4 id="browser-automation-for-pywb">Browser automation for pywb</h4>
+<p>Pywb records webpages through the browser. While it outputs high quality WARCs, due to it actually loading the DOM - the capturing process can be very slow. The following snippet can open up hundreds of tabs at once when provided with a list of URLs. Pywb can then record all of the HTTP traffic coming in. It&rsquo;s a little bit unorthodox, but it works.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
+<span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+
+<span style="color:#e6db74">&#34;&#34;&#34;Loops through .txt file to open URLs in a browser - to be used in conjunction with pywb in recording mode&#34;&#34;&#34;</span>
+
+<span style="color:#f92672">import</span> webbrowser
+<span style="color:#f92672">import</span> time
+
+<span style="color:#75715e"># Collection name used in pywb</span>
+COLLECTION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;EXAMPLE&#39;</span>
+FILE_PATH <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;/home/craiglmccarthy/EXAMPLE.txt&#39;</span>
+START <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+END <span style="color:#f92672">=</span> <span style="color:#ae81ff">250</span> <span style="color:#75715e"># None is until the end</span>
+
+<span style="color:#75715e"># Open file and add URLs to list</span>
+<span style="color:#66d9ef">with</span> open(FILE_PATH, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> f:
+    lines <span style="color:#f92672">=</span> [line<span style="color:#f92672">.</span>strip() <span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> f]
+
+<span style="color:#66d9ef">print</span>(len(lines), <span style="color:#e6db74">&#39;lines loaded.&#39;</span>)
+<span style="color:#66d9ef">print</span>(START, END)
+time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">2</span>)
+
+<span style="color:#75715e"># Loop through to open tabs in Firefox</span>
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> lines[START:END]:
+    webbrowser<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;firefox&#39;</span>)<span style="color:#f92672">.</span>open(f<span style="color:#e6db74">&#39;http://localhost:8080/{COLLECTION}/record/{i}&#39;</span>)
+</code></pre></div><p>This post carries on in Part II, <a href="/posts/2020/02/warcing-up-the-wrong-tree-part-ii/">here</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Python blockchain</title>
+            <link>/posts/2020/02/python-blockchain/</link>
+            <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/02/python-blockchain/</guid>
+            <description>I decided to have another look into blockchain - this time by building one. I found this excellent medium article - https://medium.com/@vanflymen/learn-blockchains-by-building-one-117428612f46 which goes through the process of building one in Python. The blockchain that I built is available here - I&amp;rsquo;ve added some instructions about how to use it using HTTPie.</description>
+            <content type="html"><![CDATA[<p>I decided to have another look into blockchain - this time by building one. I found this excellent medium article - <a href="https://medium.com/@vanflymen/learn-blockchains-by-building-one-117428612f46">https://medium.com/@vanflymen/learn-blockchains-by-building-one-117428612f46</a> which goes through the process of building one in Python. The blockchain that I built is available <a href="https://github.com/craiglmccarthy/python-blockchain">here</a> - I&rsquo;ve added some instructions about how to use it using <a href="https://github.com/jakubroztocil/httpie">HTTPie</a>. It was super fun to build and it solidified my understanding of blockchains quite a bit.</p>
+<p>I&rsquo;ve also found a similar resource for building blockchains in <a href="https://golang.org/">Go</a> (<a href="https://github.com/Jeiwan/blockchain_go)">https://github.com/Jeiwan/blockchain_go)</a>. I&rsquo;m pretty sure I&rsquo;ll work through this in the future as I&rsquo;ve been looking for a Go project.</p>
+<p>For an extra bit of fun, I generated a valid Bitcoin address using <a href="https://github.com/richardkiss/pycoin">pycoin</a>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> qrcode
+<span style="color:#f92672">from</span> pycoin.symbols.btc <span style="color:#f92672">import</span> network
+
+key <span style="color:#f92672">=</span> network<span style="color:#f92672">.</span>keys<span style="color:#f92672">.</span>bip32_seed(<span style="color:#e6db74">b</span><span style="color:#e6db74">&#34;craiglmccarthy&#34;</span>)
+<span style="color:#66d9ef">print</span>(key<span style="color:#f92672">.</span>address())
+img <span style="color:#f92672">=</span> qrcode<span style="color:#f92672">.</span>make(key<span style="color:#f92672">.</span>address())
+img<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#34;craiglmccarthy_qr.jpg&#34;</span>)
+</code></pre></div>
+    <figure class="center" >
+        <img src="/img/craiglmccarthy_qr.jpg"   />
+
+        
+            <figcaption class="center" >1Aaqx87nkHg42WsTMR5kNXPBnNrHp1sGXr</figcaption>
+        
+    </figure>
+
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>The great 2020 plan</title>
+            <link>/posts/2020/01/the-great-2020-plan/</link>
+            <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/01/the-great-2020-plan/</guid>
+            <description>Here&amp;rsquo;s an outline of what I&amp;rsquo;d like to achieve throughout 2020.
+Math I&amp;rsquo;ve decided to brush up on my math in preparation for a machine learning course that I&amp;rsquo;ll be starting in April.
+ Complete Data Science Math Skills - Duke University Complete Mathematics for Machine Learning Specialization - Imperial College London Go through the 3Blue1Brown playlists Do some Khan Academy courses if necessary (Algebra I, Precalculus, Statistics &amp;amp; Probability, Calculus I, Multivariable Calculus, and Linear Algebra)  Data Science Data Science-esque things took a back seat towards the end of last year (though I was using Juypter Notebooks/pandas here and there), but I&amp;rsquo;m going to be getting back into it.</description>
+            <content type="html"><![CDATA[<p>Here&rsquo;s an outline of what I&rsquo;d like to achieve throughout 2020.</p>
+<h2 id="math">Math</h2>
+<p>I&rsquo;ve decided to brush up on my math in preparation for a machine learning course that I&rsquo;ll be starting in April.</p>
+<ul>
+<li>Complete <a href="https://www.coursera.org/learn/datasciencemathskills">Data Science Math Skills</a> - Duke University</li>
+<li>Complete <a href="https://www.coursera.org/specializations/mathematics-machine-learning">Mathematics for Machine Learning Specialization</a> - Imperial College London</li>
+<li>Go through the <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a> playlists</li>
+<li>Do some Khan Academy courses if necessary (Algebra I, Precalculus, Statistics &amp; Probability, Calculus I, Multivariable Calculus, and Linear Algebra)</li>
+</ul>
+<h2 id="data-science">Data Science</h2>
+<p>Data Science-esque things took a back seat towards the end of last year (though I was using Juypter Notebooks/pandas here and there), but I&rsquo;m going to be getting back into it.</p>
+<ul>
+<li>Complete <a href="https://www.city.ac.uk/study/courses/short-courses/courses/introduction-to-data-analysis-and-machine-learning-with-python"><em>Introduction to Data Analytics and Machine Learning with Python</em></a> - City, University of London</li>
+<li>Complete the DataCamp - Data Scientist with Python career track</li>
+</ul>
+<h2 id="web-stuff">Web Stuff</h2>
+<p>Complete the freeCodeCamp syllabus.</p>
+<p>The following certificates remain to be completed:</p>
+<ul>
+<li>Front End Libraries</li>
+<li>Data Visualization</li>
+<li>APIs and Microservices</li>
+</ul>
+<h2 id="computer-science">Computer Science</h2>
+<p>I want to learn more about the fundamentals of computer science. These look pretty old-school but the word on the street is that they&rsquo;re good:</p>
+<ul>
+<li>
+<p>Brian Harvey’s <a href="https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter"><em>Structure and Interpretation of Computer Programs</em> lectures</a> - University of California, Berkeley</p>
+</li>
+<li>
+<p>Ableson and Sussman&rsquo;s <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/"><em>Structure and Interpretation of Computer Programs</em> lectures</a> - MIT</p>
+</li>
+</ul>
+<h2 id="books">Books</h2>
+<p>Books and essays that I&rsquo;d like to read:</p>
+<ul>
+<li><em>Flatland</em> (Abbott, 1884)</li>
+<li><em>A Mathematician’s Apology</em> (Hardy, 1940)</li>
+<li><em>The Man Who Loved Only Numbers</em> (Hoffman, 1998)</li>
+<li><em>What is Mathematics?</em> (Courant and Robbins, 1940)</li>
+<li><em>The C Programming Language</em> (Kernighan and Ritchie, 1978)</li>
+<li><em>The Pragmatic Programmer: From Journeyman to Master</em> (Hunt and Thomas, 1999)</li>
+<li><em>The Mythical Man-Month: Essays on Software Engineering</em> (Brooks, 1975)</li>
+<li><em>Hackers: Heroes of the Computer Revolution</em> (Levy, 1984)</li>
+<li><em>As We May Think</em> (Bush, 1945)</li>
+<li><em>Computing machinery and intelligence</em> (Turing, 1950)</li>
+<li><em>The Annotated Turing</em> (Petzold, 2008)</li>
+<li><em>Structure and Interpretation of Computer Programs</em> (Abelson and Sussman, 1985)</li>
+<li><em>The Cathedral &amp; the Bazaar: Musings on Linux and Open Source</em> (Raymond, 1999)</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>A New Year, a new OS!</title>
+            <link>/posts/2020/01/a-new-year-a-new-os/</link>
+            <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/01/a-new-year-a-new-os/</guid>
+            <description>A New Year, a new operating system! After trying and failing numerous times to get Linux running satisfactorily via Oracle VirtualBox - I finally bit the bullet and went for a dual booting solution.
+After a week or so of using Linux, Ubuntu (18.04 LTS &amp;ldquo;Bionic Beaver&amp;rdquo;), I have to say that I&amp;rsquo;m loving it.</description>
+            <content type="html"><![CDATA[<p>A New Year, a new operating system! After trying and failing numerous times to get Linux running satisfactorily via <a href="https://www.virtualbox.org/">Oracle VirtualBox</a> - I finally bit the bullet and went for a dual booting solution.</p>
+<p>After a week or so of using Linux, <a href="https://www.ubuntu.com/">Ubuntu</a> (18.04 LTS &ldquo;Bionic Beaver&rdquo;), I have to say that I&rsquo;m loving it. I haven&rsquo;t yet had to go into Windows once. I&rsquo;ve set up Zsh with <a href="https://github.com/ohmyzsh/ohmyzsh">Oh My Zsh</a> as my default shell, and I&rsquo;m using the following plugins/apps - git, <a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a>, <a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a>, and the colourfully named <a href="https://github.com/nvbn/thefuck">The Fuck</a>.</p>
+<p>A sight to behold -</p>
+<p><img src="/img/ubuntu_desktop.png" alt="Ubuntu desktop"></p>
+<p>In order to celebrate further, I treated myself to a viewing of these two documentaries on the history of Linux/the free software movement 😊 -</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Revolution_OS"><em>Revolution OS</em></a> (Moore, 2001)</li>
+<li><a href="https://en.wikipedia.org/wiki/The_Code_(2001_film)"><em>The Code</em></a> (Puttonen, 2001)</li>
+</ul>
+<p>A side bit of trivia, I attended a talk by the philosopher A. C. Grayling this week and he mentioned Ubuntu philosophy. I had an aha moment and figured out that&rsquo;s where the name for the OS comes from. Ubuntu has the meaning of &ldquo;I am because we are&rdquo;.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>December 2019 - overview</title>
+            <link>/posts/2019/12/december-2019-overview/</link>
+            <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/12/december-2019-overview/</guid>
+            <description>It was a super busy month.
+Things that I did -
+ Learnt about web crawling, detailed in a separate post - here Built my website using Hugo and learnt a bit about the Go programming language, detailed in a separate post - here Started to brush up on my math in preparation for a machine learning course that I will be undertaking in the near future Continued to learn more about JavaScript via the The Modern JavaScript Tutorial Attended another London Python meetup   The topics of the London Python meetup were optimized human memory and MQTT.</description>
+            <content type="html"><![CDATA[<p>It was a super busy month.</p>
+<p>Things that I did -</p>
+<ul>
+<li>Learnt about web crawling, detailed in a separate post - <a href="/posts/2019/12/web-crawling/">here</a></li>
+<li>Built my website using <a href="https://gohugo.io/">Hugo</a> and learnt a bit about the <a href="https://golang.org/">Go</a> programming language, detailed in a separate post - <a href="/posts/2019/12/hugo-typography/">here</a></li>
+<li>Started to brush up on my math in preparation for a machine learning course that I will be undertaking in the near future</li>
+<li>Continued to learn more about JavaScript via the <a href="https://javascript.info/">The Modern JavaScript Tutorial</a></li>
+<li>Attended another <a href="https://www.meetup.com/LondonPython/">London Python</a> meetup</li>
+</ul>
+<hr>
+<p>The topics of the London Python meetup were optimized human memory and <a href="https://en.wikipedia.org/wiki/MQTT">MQTT</a>.</p>
+<p>The optimized human memory discussion was really interesting and covered things such as -</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Spaced_repetition">Spaced repetition</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Forgetting_curve">The forgetting curve</a></li>
+<li>The implementation of these techniques/hypotheses into apps such as Anki, Quizlet, and Duolingo</li>
+</ul>
+<p>The MQTT discussion covered the usage of MQTT to control IOT devices/Raspberry Pis.</p>
+<p>In preparation for an upcoming course in machine learning, I decided that I probably should brush up on my math, especially linear algebra, calculus, and statistics.</p>
+<p>I found this interesting (relatively speaking) youtube channel. I watched through the <em>Essence of linear algebra</em> playlist and I&rsquo;m planning to work my way through the other playlists <em>Essence of calculus</em>/<em>Neural networks</em>. I think the guy actually does the animations using Python -</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/fNk_zzaMoSs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hugo &amp; Typography</title>
+            <link>/posts/2019/12/hugo-typography/</link>
+            <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/12/hugo-typography/</guid>
+            <description>I decided to build my site using Hugo. I&amp;rsquo;ve also transferred my posts from my previous Github/Jekyll powered blog. I just didn&amp;rsquo;t like the fact that Jekyll is built for a dying language - Ruby.
+I&amp;rsquo;m quite pleased with my site. Hugo is nice and easy to work with and it allows for endless customisation.</description>
+            <content type="html"><![CDATA[<p>I decided to build my site using Hugo. I&rsquo;ve also transferred my posts from my previous Github/Jekyll powered blog. I just didn&rsquo;t like the fact that Jekyll is built for a dying language - Ruby.</p>
+<p>I&rsquo;m quite pleased with my site. Hugo is nice and easy to work with and it allows for endless customisation. I built my site atop of this theme - <a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">hugo-theme-hello-friend-ng</a> - before customising it. I&rsquo;ll add my theme to Github once I&rsquo;ve cleaned it up a bit. I might see about adding it to the Hugo themes collection too.</p>
+<p>I spent a ludicrous amount of time deciding what fonts to use. I eventually decided on using the <a href="https://fonts.google.com/featured/Plex">IBM Plex family</a>, both the monospaced and sans-serif variants. I&rsquo;ve used the monospaced fonts for the body of my site as I wanted to get that typewriter/computer code feel. I also went with Goudy Bookletter 1911 for the title font, which I originally found here - <a href="https://www.theleagueofmoveabletype.com/">The League of Moveable Type</a>.</p>
+<p>Some resources that I used when putting my site together -</p>
+<ul>
+<li><a href="https://coolors.co/">coolers</a> - a <em>cool</em> site that I used to select colors of my site, hours of fun to be had</li>
+<li><a href="http://100daysoffonts.com/">100 Days of Fonts</a> - a nice collection of font pairings/layouts</li>
+<li><a href="https://archive.tdc.org/news/2018-typeface-design-competition-judges-choice-ibm-plex/">The Type Directors Club</a> - an article on why IBM Plex won The Type Directors Club - Judges’ Choice badge in 2018</li>
+<li><a href="https://www.ibm.com/plex/">IBM Plex</a> - the official showcase website</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Web crawling</title>
+            <link>/posts/2019/12/web-crawling/</link>
+            <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/12/web-crawling/</guid>
+            <description>December started with me looking into web crawling. I managed to set up the Heritrix web crawler, which as the Github README reads -
+ Heritrix is the Internet Archive&amp;rsquo;s open-source, extensible, web-scale, archival-quality web crawler project. Heritrix (sometimes spelled heretrix, or misspelled or missaid as heratrix/heritix/heretix/heratix) is an archaic word for heiress (woman who inherits).</description>
+            <content type="html"><![CDATA[<p>December started with me looking into web crawling. I managed to set up the <a href="https://github.com/internetarchive/heritrix3">Heritrix</a> web crawler, which as the Github README reads -</p>
+<blockquote>
+<p>Heritrix is the Internet Archive&rsquo;s open-source, extensible, web-scale, archival-quality web crawler project. Heritrix (sometimes spelled heretrix, or misspelled or missaid as heratrix/heritix/heretix/heratix) is an archaic word for heiress (woman who inherits). Since our crawler seeks to collect and preserve the digital artifacts of our culture for the benefit of future researchers and generations, this name seemed apt.</p>
+</blockquote>
+<p>It is Linux only, so I had to run it from the Windows Subsystem for Linux via Ubuntu and also install Java to get it running. I got it all configured and I was able to crawl and capture a website, the website being <em>The Royal Institute of Philosophy</em>. The capture is displayed via <a href="https://github.com/webrecorder/pywb">pywb</a>, a &ldquo;Python Web Archiving Toolkit for replay and recording of web archives&rdquo;, i.e. a Python implementation of the Wayback Machine -</p>
+<p><img src="/img/pywb.png" alt="pywb"></p>
+<p>I took a closer look at the WARC file using the <a href="https://archivesunleashed.org/aut/">Archives Unleashed Toolkit</a>. This in itself meant installing <a href="https://spark.apache.org/">Apache Spark</a> and the <a href="https://www.scala-lang.org/">Scala</a> programming language.</p>
+<p>The Archives Unleashed Toolkit seems pretty powerful, it allows you to do all sorts of stuff like -</p>
+<ul>
+<li>
+<p>Collection Analytics</p>
+</li>
+<li>
+<p>Plain Text Extraction</p>
+</li>
+<li>
+<p>Raw HTML Extraction</p>
+</li>
+<li>
+<p>Named Entity Recognition</p>
+</li>
+<li>
+<p>Analysis of Site Link Structure</p>
+</li>
+<li>
+<p>Image Analysis</p>
+</li>
+<li>
+<p>Filters</p>
+</li>
+<li>
+<p>DataFrames</p>
+</li>
+</ul>
+<p>I had a go at making a network visualisation of the website that I captured using an export from the Archives Unleashed Toolkit straight into <a href="https://gephi.org/">Gephi</a> - it looked very pretty. Unfortunately, I forgot to save/take a screenshot of it 😢</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>November 2019 - overview</title>
+            <link>/posts/2019/12/november-2019-overview/</link>
+            <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/12/november-2019-overview/</guid>
+            <description>November saw me finishing Make Your Own Neural Network (Rashid, 2016), making good progress with the freeCodeCamp - JavaScript Algorithms and Data Structures Certification, and attending my first coding meetup with London Python.
+Make Your Own Neural Network was a great read - it definitely demystified the goings on in neural networks.</description>
+            <content type="html"><![CDATA[<p>November saw me finishing <em>Make Your Own Neural Network</em> (Rashid, 2016), making good progress with the <a href="https://www.freecodecamp.org/">freeCodeCamp</a> - JavaScript Algorithms and Data Structures Certification, and attending my first coding meetup with <a href="https://www.meetup.com/LondonPython/">London Python</a>.</p>
+<p><em>Make Your Own Neural Network</em> was a great read - it definitely demystified the goings on in neural networks. It goes through the implementation of a neural network to recognise handwriting samples using the <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST database</a>. The math wasn&rsquo;t that intimidating either.</p>
+<p>The London Python meetup was really cool, the topic of discussion being - Natural Language Processing. The discussion introduced a few of the common tools used in NLP, such as the <a href="https://en.wikipedia.org/wiki/Natural_Language_Toolkit">NLT</a> and <a href="https://en.wikipedia.org/wiki/SpaCy">spaCy</a>. Also&hellip; free pizza and free beer.</p>
+<p>I also put together a small project based around the Raspberry Pi and the Raspberry Pi camera. In a nutshell, the project uses the Raspberry Pi camera as an input to &ldquo;scan&rdquo; the table of contents in books. The scanned image is then sent to the <a href="https://cloud.google.com/vision/">Google Cloud Vision API</a> to produce OCR&rsquo;d text. This text is then sent to my organisation&rsquo;s taxonomy server in order to classify the book. The GitHub repository is available <a href="https://github.com/craiglmccarthy/class-o-vision">here</a>.</p>
+<p>I read:</p>
+<ul>
+<li><em>You Don&rsquo;t Know JS Yet: Get Started</em> (Simpson, 2019)</li>
+</ul>
+<p>I started working my way through the <a href="https://javascript.info/">The Modern JavaScript Tutorial</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>October 2019 - overview</title>
+            <link>/posts/2019/11/october-2019-overview/</link>
+            <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/11/october-2019-overview/</guid>
+            <description>My greatest achievement of October was that I finally managed to finish the freeCodeCamp Responsive Web Design Certification, the Github repository is available here. It took a lot longer than I had originally anticipated, though towards the end I think I had got my workflows figured out. Next stop - the JavaScript Algorithms and Data Structures Certification.</description>
+            <content type="html"><![CDATA[<p>My greatest achievement of October was that I finally managed to finish the <a href="https://www.freecodecamp.org/">freeCodeCamp</a> Responsive Web Design Certification, the Github repository is available <a href="https://github.com/craiglmccarthy/freecodecamp/tree/master/Responsive%20Web%20Design%20Projects">here</a>. It took a lot longer than I had originally anticipated, though towards the end I think I had got my workflows figured out. Next stop - the JavaScript Algorithms and Data Structures Certification.</p>
+<p>I also bought a Raspberry Pi to do some coding on while I&rsquo;m at work - mostly so I don&rsquo;t have to lug my laptop around all of the time. I actually had one of these a number of years ago, I had the Pi 2 which I mainly used to emulate arcade games via <a href="https://www.mamedev.org/">MAME</a>. However, I&rsquo;m really impressed with the power of the new model - I think you could definitely run it as a main desktop computer. The screenshot below shows the <em>Doc-o-matic</em> running on Raspbian. I&rsquo;ve also got a few projects planned specifically for the Raspberry Pi.</p>
+<p>I read:</p>
+<ul>
+<li><em>Python for Data Analysis</em> (McKinney, 2017)</li>
+<li><em>Principles of Data Wrangling: Practical Techniques for Data Preparation</em> (Rattenbury, 2017)</li>
+<li><em>Mathematics: A Very Short Introduction</em> (Gowers, 2002)</li>
+</ul>
+<p>I completed:</p>
+<ul>
+<li>Technical Documentation Page (freeCodeCamp project)</li>
+<li>Personal Portfolio Website Page (freeCodeCamp project)</li>
+</ul>
+<p>I watched:</p>
+<ul>
+<li>CS-50 Data Structures</li>
+<li>CS-50 Python</li>
+<li>CS-50 SQL</li>
+</ul>
+<p>I started reading:</p>
+<ul>
+<li><em>Make Your Own Neural Network</em> (Rashid, 2016)</li>
+</ul>
+<p>Doc-o-matic running on a Raspberry Pi-</p>
+<p><img src="/img/rasp_docomatic.jpeg" alt="Doc-o-matic on Raspberry Pi"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>September 2019 - overview</title>
+            <link>/posts/2019/10/september-2019-overview/</link>
+            <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/10/september-2019-overview/</guid>
+            <description>This month was a bit busier than the previous month.
+I have decided to take a break from DataCamp and have decided to hit up the books instead. I&amp;rsquo;ll return to DataCamp after I&amp;rsquo;ve finished reading -
+ Python for Data Analysis (McKinney, 2017) Data Science from Scratch (Grus, 2019)  I started to watch the 2019 CS50 lectures from Harvard University, CS50 being an introductory computer science course.</description>
+            <content type="html"><![CDATA[<p>This month was a bit busier than the previous month.</p>
+<p>I have decided to take a break from <a href="https://www.datacamp.com/">DataCamp</a> and have decided to hit up the books instead. I&rsquo;ll return to DataCamp after I&rsquo;ve finished reading -</p>
+<ul>
+<li><em>Python for Data Analysis</em> (McKinney, 2017)</li>
+<li><em>Data Science from Scratch</em> (Grus, 2019)</li>
+</ul>
+<p>I started to watch the 2019 <a href="https://cs50.harvard.edu/college/">CS50</a> lectures from Harvard University, CS50 being an introductory computer science course. The lectures so far have covered - Scratch, C, arrays, algorithms, and memory. I&rsquo;ve been really impressed with the course - especially its high quality production values.</p>
+<p>I read <em>Blockchain Basics: A Non-Technical Introduction in 25 Steps</em> (Drescher, 2017) and <em>Digital Gold: The Untold Story of Bitcoin</em> (Popper, 2016). The first book provided a good overview of how blockchain works and its application in the wider world. The second book provided a fascinating history of bitcoin.</p>
+<p>I completed the following <a href="https://www.freecodecamp.org/">freeCodeCamp</a> projects for the Responsive Web Design Certification - Tribute Page, Survey Form, Product Landing Page (only 2 more to go!).</p>
+<p>I did a bit more work on the <em>Doc-o-matic</em> - I managed to get it to communicate with my organisation&rsquo;s taxonomy server using API calls. This enables the <em>Doc-o-matic</em> to generate subject classification fields in the MARC records. I also did some practical data wrangling using pandas on data obtained from the LMS.</p>
+<p>Hours studied (daily) subplots-</p>
+<p><img src="/img/sub_plots_sep.png" alt="Daily study subplots"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>August 2019 - overview</title>
+            <link>/posts/2019/09/august-2019-overview/</link>
+            <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/09/august-2019-overview/</guid>
+            <description>It was a fairly quiet month on the coding front. The first half of the month was largely taken up by a visit to Poland - to the cities of Krakow and Warsaw. I had a great time and I definitely had my fair share of pierogi.
+Here&amp;rsquo;s the progress that I made in August -</description>
+            <content type="html"><![CDATA[<p>It was a fairly quiet month on the coding front. The first half of the month was largely taken up by a visit to Poland - to the cities of Krakow and Warsaw. I had a great time and I definitely had my fair share of pierogi.</p>
+<p>Here&rsquo;s the progress that I made in August -</p>
+<ul>
+<li>
+<p>I read <em>JavaScript and jQuery: Interactive Front-End Web Development</em> (Duckett, 2013) and <em>Superintelligence</em> (Bostrom, 2014)</p>
+</li>
+<li>
+<p>I started <a href="https://www.freecodecamp.org/">freeCodeCamp</a> and completed most of the Responsive Web Design Certification (excluding the final projects). I managed to put together some design mock-ups for the final projects and hope to get them completed by the end of September</p>
+</li>
+<li>
+<p>I started working my way through <a href="https://internetingishard.com/">internetingishard.com</a> - which I&rsquo;ve found to be a really good resource</p>
+</li>
+<li>
+<p>I completed the following modules on <a href="https://www.datacamp.com/">DataCamp</a> - <em>Cleaning Data in Python</em>; <em>Introduction to Data Science in Python</em>; <em>Pandas Foundations</em>; and <em>Manipulating DataFrames with pandas</em></p>
+</li>
+</ul>
+<p>Since deciding to record my learning progress, I&rsquo;ve kept a rough record of the hours spent each day. I&rsquo;ve put together some data visualisations using pandas/Matplotlib, which you can see below, styled in xkcd 🙂 -</p>
+<p><img src="/img/daily_study_aug.png" alt="Daily study"></p>
+<p><img src="/img/cumulative_study_aug.png" alt="Cumulative study"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>July 2019 - overview</title>
+            <link>/posts/2019/08/july-2019-overview/</link>
+            <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/08/july-2019-overview/</guid>
+            <description>This month mostly consisted of readings. I made my way through HTML and CSS: Design and Build Websites (Duckett, 2011), JavaScript and jQuery: Interactive Front-End Web Development (Duckett, 2013), and I started Python for Data Analysis (McKinney, 2017).
+The web development books served as both a refresher (I&amp;rsquo;ve already got quite a bit of experience regarding HTML and CSS) and a primer for the freeCodeCamp courses that I hope to start in August.</description>
+            <content type="html"><![CDATA[<p>This month mostly consisted of readings. I made my way through <em>HTML and CSS: Design and Build Websites</em> (Duckett, 2011), <em>JavaScript and jQuery: Interactive Front-End Web Development</em> (Duckett, 2013), and I started <em>Python for Data Analysis</em> (McKinney, 2017).</p>
+<p>The web development books served as both a refresher (I&rsquo;ve already got quite a bit of experience regarding HTML and CSS) and a primer for the <a href="https://www.freecodecamp.org/">freeCodeCamp</a> courses that I hope to start in August. I quite liked both books but I was aware that they need updating in quite a lot of places.</p>
+<p>In addition to starting the McKinney book, I signed up to and completed the following courses on <a href="https://www.datacamp.com/">DataCamp</a>:</p>
+<ul>
+<li>Introduction to Python</li>
+<li>Intermediate Python for Data Science</li>
+<li>Python Data Science Toolbox (Part 1)</li>
+<li>Python Data Science Toolbox (Part 2)</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>June 2019 - overview</title>
+            <link>/posts/2019/07/june-2019-overview/</link>
+            <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/07/june-2019-overview/</guid>
+            <description>This month I got to grips with the use of virtual environments and the integration of Git in Visual Studio Code. I also set up the Windows Subsystem for Linux so that I can use Bash.
+I put some more work into the GUI data entry automation project - it is now complete and I have built it into a windows executable via pyinstaller.</description>
+            <content type="html"><![CDATA[<p>This month I got to grips with the use of virtual environments and the integration of Git in Visual Studio Code. I also set up the Windows Subsystem for Linux so that I can use Bash.</p>
+<p>I put some more work into the GUI data entry automation project - it is now complete and I have built it into a windows executable via <a href="http://www.pyinstaller.org/">pyinstaller</a>.</p>
+<p>I also carried on with the MARC 21 automation project, now called the <em>Doc-o-matic</em>. I had thought about building a user interface using Flask but I ultimately decided against this.</p>
+<p>Instead, I looked into the <em>Tkinter</em> module to build a GUI - I&rsquo;m quite pleased with the end result. I also added the option for the MARC 21 records to be merged into a single file after their creation.</p>
+<p>The third week of the month consisted of watching tutorials about <a href="https://www.pygame.org/">pygame</a>. At some point I&rsquo;m hoping to build a simple 2D shmup.</p>
+<p>The final week of the month saw a relative decline in Python related activity. With Bitcoin in the news again, I decided to take another look into it. I watched a few lectures by Andreas Antonopoulos and I read through the original white paper - <a href="https://bitcoin.org/bitcoin.pdf"><em>Bitcoin: A Peer-to-Peer Electronic Cash System</em></a>. It&rsquo;s super cool stuff.</p>
+<p>Here&rsquo;s a screenshot of the <em>Doc-o-matic</em> GUI -</p>
+<p><img src="/img/doc_o_matic.png" alt="Doc-o-matic"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>May 2019 - overview</title>
+            <link>/posts/2019/06/may-2019-overview/</link>
+            <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/06/may-2019-overview/</guid>
+            <description>This month mostly consisted of working through Automate the Boring Stuff (Sweigart, 2015); Think Python (Downey, 2015); and the end of Python Crash Course (Matthes, 2015).
+I thoroughly enjoyed all three books, completing most of the exercises in Automate the Boring Stuff and Python Crash Course - the exception being the final project of Python Crash Course, the Django app.</description>
+            <content type="html"><![CDATA[<p>This month mostly consisted of working through <a href="https://automatetheboringstuff.com/"><em>Automate the Boring Stuff</em></a> (Sweigart, 2015); <a href="https://greenteapress.com/wp/think-python-2e/"><em>Think Python</em></a> (Downey, 2015); and the end of <em>Python Crash Course</em> (Matthes, 2015).</p>
+<p>I thoroughly enjoyed all three books, completing most of the exercises in <a href="https://automatetheboringstuff.com/"><em>Automate the Boring Stuff</em></a> and <em>Python Crash Course</em> - the exception being the final project of <em>Python Crash Course</em>, the Django app. I made it up to the point of styling the app with Bootstrap. I then kinda got side-tracked with the testing of various Linux distributions instead. Though I really like the philosophy of Linux, I’m still going to stick with Windows for the time being.</p>
+<p><em>Think Python</em> was mostly a skim read and this probably didn&rsquo;t do the book justice - I’m hoping to go back and work through the exercises at some point.</p>
+<p>I started two projects:</p>
+<ul>
+<li>
+<p>a data entry automation program that uses GUI automation to fill out forms;</p>
+</li>
+<li>
+<p>and a program that parses pdf documents to automate the production of MARC 21 library catalogue records.</p>
+</li>
+</ul>
+<p>The data entry automation program uses a mixture of regular expressions to parse plain text copied from a CRM system, determines the actions to take depending on the data parsed, and then finally fulfils them using <a href="https://github.com/asweigart/pyautogui">pyautogui</a>. Using an API would make a lot more sense, however it&rsquo;s still fun to see the mouse and keyboard take on a life of their own. I&rsquo;ve also been looking into source control via Git - I&rsquo;ll push the project to Github at a later date.</p>
+<p>The second program pulls pdf files from my organisation&rsquo;s website, parses the content and produces skeleton MARC 21 library catalogue records. The records can then later be imported into the Library Management System. The program makes use of the <a href="https://github.com/edsu/pymarc">pymarc</a> Python module to output the data in the correct format. While the first program was mostly built as a learning exercise, this program should actually prove quite useful in my job.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

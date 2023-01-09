@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/tags/books/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/c/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/computer-science/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-science/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/datacamp/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/freecodecamp/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/math/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/09/the-great-2020-plan-revisited/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/blockchain/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cryptocurrency/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/09/ethereum-2.0-medalla-testnet/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/quantum-computing/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/raspberry-pi/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/09/september-2020-update/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/05/april-2020-/-may-2020-overview/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/meetups/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/05/ethereum-2.0-validator-topaz-testnet/</loc>
+    <lastmod>2020-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/digital-archives/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/04/the-theory-and-craft-of-digital-preservation/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/video-games/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/lisp/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/scheme/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/04/structure-and-interpretation-of-computer-programs/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/command-line/</loc>
+    <lastmod>2020-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/03/february-2020-/-march-2020-overview/</loc>
+    <lastmod>2020-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/web-archiving/</loc>
+    <lastmod>2020-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/02/warcing-up-the-wrong-tree-part-ii/</loc>
+    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/02/january-2020-overview/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/neural-networks/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/02/warcing-up-the-wrong-tree-part-i/</loc>
+    <lastmod>2020-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/02/python-blockchain/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/01/the-great-2020-plan/</loc>
+    <lastmod>2020-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020/01/a-new-year-a-new-os/</loc>
+    <lastmod>2020-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/philosophy/</loc>
+    <lastmod>2020-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/css/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-visualisation/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/12/december-2019-overview/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/design/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/go/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/html/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/12/hugo-typography/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/typography/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/12/web-crawling/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/apis/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/automation/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/nlp/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/12/november-2019-overview/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ocr/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/taxonomy/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/11/october-2019-overview/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sql/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/marc-21/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/10/september-2019-overview/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/09/august-2019-overview/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/08/july-2019-overview/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/07/june-2019-overview/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/06/may-2019-overview/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+  </url>
+  
+</urlset>

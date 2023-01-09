@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning on Craig McCarthy</title>
+    <link>/tags/machine-learning/</link>
+    <description>Recent content in machine learning on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The great 2020 plan - revisited</title>
+      <link>/posts/2020/09/the-great-2020-plan-revisited/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/09/the-great-2020-plan-revisited/</guid>
+      <description>I thought it would be good to revisit my great 2020 plan from the start of the year and see the progress that I&amp;rsquo;ve made. I&amp;rsquo;d say I&amp;rsquo;ve made reasonable progress, but not as much as I&amp;rsquo;d have liked. I put this partially down to my shifting interests - notably getting more and more interested in the world of blockchains and cryptocurrencies.</description>
+    </item>
+    
+    <item>
+      <title>April 2020 / May 2020 - overview</title>
+      <link>/posts/2020/05/april-2020-/-may-2020-overview/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/05/april-2020-/-may-2020-overview/</guid>
+      <description>Things that I’ve done over the past couple of months.
+  Wrote a tool that monitors changes to sitemaps. I needed something that would detect newly published webpages for archival capture. The Github repo is here.
+  I started a short course at City, University of London - Introduction to Data Analytics and Machine Learning with Python.</description>
+    </item>
+    
+    <item>
+      <title>January 2020 - overview</title>
+      <link>/posts/2020/02/january-2020-overview/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/02/january-2020-overview/</guid>
+      <description>It has been a quite varied month.
+  I attended two coding meetups:
+  New Year&amp;rsquo;s Hyperledger @ PwC More London
+  IBM Code London - Audio Classification with Convolutional Neural Networks @ Techspace Shoreditch
+    I built a blockchain using Python, more on that here</description>
+    </item>
+    
+    <item>
+      <title>The great 2020 plan</title>
+      <link>/posts/2020/01/the-great-2020-plan/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/01/the-great-2020-plan/</guid>
+      <description>Here&amp;rsquo;s an outline of what I&amp;rsquo;d like to achieve throughout 2020.
+Math I&amp;rsquo;ve decided to brush up on my math in preparation for a machine learning course that I&amp;rsquo;ll be starting in April.
+ Complete Data Science Math Skills - Duke University Complete Mathematics for Machine Learning Specialization - Imperial College London Go through the 3Blue1Brown playlists Do some Khan Academy courses if necessary (Algebra I, Precalculus, Statistics &amp;amp; Probability, Calculus I, Multivariable Calculus, and Linear Algebra)  Data Science Data Science-esque things took a back seat towards the end of last year (though I was using Juypter Notebooks/pandas here and there), but I&amp;rsquo;m going to be getting back into it.</description>
+    </item>
+    
+    <item>
+      <title>November 2019 - overview</title>
+      <link>/posts/2019/12/november-2019-overview/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/november-2019-overview/</guid>
+      <description>November saw me finishing Make Your Own Neural Network (Rashid, 2016), making good progress with the freeCodeCamp - JavaScript Algorithms and Data Structures Certification, and attending my first coding meetup with London Python.
+Make Your Own Neural Network was a great read - it definitely demystified the goings on in neural networks.</description>
+    </item>
+    
+  </channel>
+</rss>

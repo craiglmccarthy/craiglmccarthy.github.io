@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on Craig McCarthy</title>
+    <link>/tags/math/</link>
+    <description>Recent content in math on Craig McCarthy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The great 2020 plan - revisited</title>
+      <link>/posts/2020/09/the-great-2020-plan-revisited/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/09/the-great-2020-plan-revisited/</guid>
+      <description>I thought it would be good to revisit my great 2020 plan from the start of the year and see the progress that I&amp;rsquo;ve made. I&amp;rsquo;d say I&amp;rsquo;ve made reasonable progress, but not as much as I&amp;rsquo;d have liked. I put this partially down to my shifting interests - notably getting more and more interested in the world of blockchains and cryptocurrencies.</description>
+    </item>
+    
+    <item>
+      <title>The great 2020 plan</title>
+      <link>/posts/2020/01/the-great-2020-plan/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/01/the-great-2020-plan/</guid>
+      <description>Here&amp;rsquo;s an outline of what I&amp;rsquo;d like to achieve throughout 2020.
+Math I&amp;rsquo;ve decided to brush up on my math in preparation for a machine learning course that I&amp;rsquo;ll be starting in April.
+ Complete Data Science Math Skills - Duke University Complete Mathematics for Machine Learning Specialization - Imperial College London Go through the 3Blue1Brown playlists Do some Khan Academy courses if necessary (Algebra I, Precalculus, Statistics &amp;amp; Probability, Calculus I, Multivariable Calculus, and Linear Algebra)  Data Science Data Science-esque things took a back seat towards the end of last year (though I was using Juypter Notebooks/pandas here and there), but I&amp;rsquo;m going to be getting back into it.</description>
+    </item>
+    
+    <item>
+      <title>December 2019 - overview</title>
+      <link>/posts/2019/12/december-2019-overview/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/12/december-2019-overview/</guid>
+      <description>It was a super busy month.
+Things that I did -
+ Learnt about web crawling, detailed in a separate post - here Built my website using Hugo and learnt a bit about the Go programming language, detailed in a separate post - here Started to brush up on my math in preparation for a machine learning course that I will be undertaking in the near future Continued to learn more about JavaScript via the The Modern JavaScript Tutorial Attended another London Python meetup   The topics of the London Python meetup were optimized human memory and MQTT.</description>
+    </item>
+    
+  </channel>
+</rss>
